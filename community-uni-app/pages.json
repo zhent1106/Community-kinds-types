@@ -29,7 +29,9 @@
         }
         ,{
             "path" : "pages/details/details",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "歌曲播放"
+			}
         }
     ],
 	"globalStyle": {
