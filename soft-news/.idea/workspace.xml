@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../community-uni-app/pages/details/details.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/pages/details/details.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../community-uni-app/store/audio/audio.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/store/audio/audio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../community-uni-app/store/audio/musicResources.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/store/audio/musicResources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_jar" />
+        <option name="mavenHome" value="E:/tz_study/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\tz_study\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kEs63NLJw63DIym3EZX2G1WmTT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="" />
+      <created>1605276907303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605276907303</updated>
+      <workItem from="1605276913864" duration="6000" />
+    </task>
+    <servers />
+  </component>
+</project>

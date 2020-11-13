@@ -15,7 +15,7 @@
 
 		<!-- 歌曲图片 -->
 		<view class="flex align-center justify-center" style="height: 320rpx;">
-			<image src="../../static/seat.jpg" lazy-load style="border-radius: 35rpx;box-shadow: 0 2rpx 6rpx 0;height: 300rpx;"></image>
+			<image :src="musicCover" lazy-load style="border-radius: 35rpx;box-shadow: 0 2rpx 6rpx 0;height: 300rpx;"></image>
 		</view>
 
 		<!-- 进度部分 -->
@@ -38,7 +38,7 @@
 				<view class="ml-2" @tap="PreOrNext('next')"><my-icon iconId="icon-xiayixiang" iconSize="85"></my-icon></view>
 			</view>
 
-			<view class="flex align-center justify-center font text-light-black" style="padding-top: 100rpx;">
+			<view class="flex align-center justify-center font text-light-black" style="padding-top: 50rpx;">
 				<view class="flex flex-column align-center" @tap="changeStatus('listStatus')">
 					<my-icon :iconId="!listStatus?'icon-icon--':'icon-liebiao'" iconSize="60"></my-icon>
 					<text class="pt-1">播放列表</text>
@@ -67,18 +67,12 @@
 						<text class="font-weight-bold">{{ singerName }}</text>
 					</view>
 				</view>
-				<my-icon iconId="icon-jieshou" iconSize="65"></my-icon>
-			</view>
-
-			<view>
-				<view class="font-md pt-2">歌手简介:</view>
-				<view class="text-ellipsis w-100">{{ singerSynopsis }}</view>
+				<my-icon iconId="icon-jieshao" iconSize="65" @my-click="showSingerSynopsis"></my-icon>
 			</view>
 		</view>
 
 		<!-- 播放列表部分 -->
 		<view v-else class="fixed-bottom shadow p-2 animated fadeInUp" style="height: 300rpx;border-radius: 30rpx;">
-			<!-- <view class="font-weight-bold font-md" style="height: 50rpx;">列表选择</view> -->
 			<scroll-view scroll-y style="height: 300rpx;">
 				<block v-for="(item, index) in audioList" :key="item.id">
 					<view class="flex align-center font px-2" style="height: 85rpx;" hover-class="bg-light" @tap="selectPlay(item.id)">
@@ -92,6 +86,11 @@
 				</block>
 			</scroll-view>
 		</view>
+		<uni-popup ref="popup">
+					<view class="px-2 shadow" style="width: 600rpx;height: 850rpx;border-radius: 40rpx;" :class="nightStatus?'nightTheme':'bg-white'">
+						<text class="font">{{singerSynopsis}}</text>
+					</view>
+				</uni-popup>
 	</view>
 </template>
 
@@ -122,7 +121,7 @@ export default {
 			audioList: ({ audio }) => audio.audioList,
 			playStatus: ({audio}) => audio.playStatus
 		}),
-		...mapGetters(["audioName", "singerName", "singerSynopsis"])
+		...mapGetters(["audioName", "singerName", "singerSynopsis","musicCover"])
 	},
 	methods: {
 		...mapActions([
