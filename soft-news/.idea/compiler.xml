@@ -9,6 +9,7 @@
         <module name="soft-news-common" />
         <module name="soft-news-model" />
         <module name="soft-news-service-api" />
+        <module name="soft-news-service-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
@@ -18,6 +19,7 @@
       <module name="soft-news-common" options="-parameters" />
       <module name="soft-news-model" options="-parameters" />
       <module name="soft-news-service-api" options="-parameters" />
+      <module name="soft-news-service-user" options="-parameters" />
     </option>
   </component>
 </project>
