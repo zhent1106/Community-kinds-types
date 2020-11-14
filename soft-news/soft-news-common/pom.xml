@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>com.soft1851</groupId>
-            <artifactId>soft-news-model</artifactId>
+            <artifactId>soft-news-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 <!--        &lt;!&ndash; SpringBoot相关依赖&ndash;&gt;-->
