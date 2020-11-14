@@ -1,6 +1,6 @@
 package com.soft1851.user.controller;
-
 import com.soft1851.api.controller.user.HelloControllerApi;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date 2020/11/13
  **/
 @RestController
+@Slf4j
 public class HelloController implements HelloControllerApi {
 
 
