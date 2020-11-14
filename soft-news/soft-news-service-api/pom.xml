@@ -11,13 +11,9 @@
 
     <artifactId>soft-news-service-api</artifactId>
 
+
     <!--soft-news-service-api 接口工程，集中管理所有的controller中的接口，为了更好的统一管理微服务-->
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>com.soft1851</groupId>-->
-<!--            <artifactId>soft-news-model</artifactId>-->
-<!--            <version>1.0-SNAPSHOT</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>com.soft1851</groupId>
             <artifactId>soft-news-model</artifactId>
@@ -35,7 +31,21 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-configuration-processor</artifactId>
                 </dependency>
-
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>${swagger-bootstrap-ui.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

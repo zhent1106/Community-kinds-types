@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AppUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/Fans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/my/mapper/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/AppUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/mapper/FansMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/AppUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper/FansMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/config/Swagger2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/admin/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/admin/mapper/AdminUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/article/mapper/CommentsMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/my/mapper/MyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/mybatis/utils/AdminGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/mybatis/utils/ArticleGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/mybatis/utils/UserGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/pojo/AdminUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/pojo/AppUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/pojo/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/pojo/Fans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/user/mapper/AppUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-generator-database/target/classes/com/soft1851/user/mapper/FansMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/UserControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/UserControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/mapper/AppUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/mapper/FansMapper.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +189,8 @@
       <updated>1605276907303</updated>
       <workItem from="1605276913864" duration="4266000" />
       <workItem from="1605324586376" duration="5237000" />
-      <workItem from="1605351991866" duration="2833000" />
+      <workItem from="1605351991866" duration="3942000" />
+      <workItem from="1605356069054" duration="1061000" />
     </task>
     <servers />
   </component>
@@ -199,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605353546367" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1605354867551">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1605357072792">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605354867551" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605357072792" />
     <state x="515" y="271" width="506" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605278803970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -211,38 +217,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605352154148" />
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1605355009928">
+    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1605356053816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605355009928" />
-    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1605355009928">
+    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
+    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1605356053816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605355009928" />
-    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1605355009928">
+    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
+    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1605356053816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605355009928" />
-    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1605355009928">
+    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
+    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1605356053816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605355009928" />
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom" timestamp="1605355009929">
+    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
+    <state width="1492" height="203" key="GridCell.Tab.1.bottom" timestamp="1605356053818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605355009929" />
-    <state width="1492" height="203" key="GridCell.Tab.1.center" timestamp="1605355009929">
+    <state width="1492" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
+    <state width="1492" height="203" key="GridCell.Tab.1.center" timestamp="1605356053818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605355009929" />
-    <state width="1492" height="203" key="GridCell.Tab.1.left" timestamp="1605355009929">
+    <state width="1492" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
+    <state width="1492" height="203" key="GridCell.Tab.1.left" timestamp="1605356053818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605355009929" />
-    <state width="1492" height="203" key="GridCell.Tab.1.right" timestamp="1605355009929">
+    <state width="1492" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
+    <state width="1492" height="203" key="GridCell.Tab.1.right" timestamp="1605356053818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605355009929" />
+    <state width="1492" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605355946054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1605355946054" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1605352574946">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

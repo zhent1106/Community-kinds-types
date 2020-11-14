@@ -154,6 +154,7 @@
                 <version>${google-guava.version}</version>
             </dependency>
 
+
             <!-- swagger2 配置 -->
             <dependency>
                 <groupId>io.springfox</groupId>
