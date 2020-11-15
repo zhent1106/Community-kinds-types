@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/SmsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/extend/AliyunResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/resources/aliyun.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/PassportControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/PasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/RedisOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/GraceResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/ResponseStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/PasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/PasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-service-user/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,6 +90,7 @@
       <recent name="com.soft1851.pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\3.学习资料\spring-cloud-review\soft-news\soft-news-common\src\main\java\com\soft1851\utils" />
       <recent name="D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-user\src\main\resources\mapper" />
     </key>
   </component>
@@ -182,7 +179,7 @@
       <workItem from="1605324586376" duration="5237000" />
       <workItem from="1605351991866" duration="3942000" />
       <workItem from="1605356069054" duration="1413000" />
-      <workItem from="1605441701528" duration="3644000" />
+      <workItem from="1605441701528" duration="5376000" />
     </task>
     <servers />
   </component>
@@ -209,38 +206,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605352154148" />
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1605356053816">
+    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
-    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1605356053816">
+    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
-    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1605356053816">
+    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
-    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1605356053816">
+    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605356053816" />
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom" timestamp="1605356053818">
+    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.1.bottom" timestamp="1605446934134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
-    <state width="1492" height="203" key="GridCell.Tab.1.center" timestamp="1605356053818">
+    <state width="1492" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605446934134" />
+    <state width="1492" height="203" key="GridCell.Tab.1.center" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
-    <state width="1492" height="203" key="GridCell.Tab.1.left" timestamp="1605356053818">
+    <state width="1492" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.1.left" timestamp="1605446934133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
-    <state width="1492" height="203" key="GridCell.Tab.1.right" timestamp="1605356053818">
+    <state width="1492" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605446934133" />
+    <state width="1492" height="203" key="GridCell.Tab.1.right" timestamp="1605446934134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605356053818" />
+    <state width="1492" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605446934134" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605445218884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
