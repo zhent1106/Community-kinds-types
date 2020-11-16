@@ -23,6 +23,6 @@ public class InterceptorConfig implements WebMvcConfigurer {
     public  void addInterceptors(InterceptorRegistry registry){
         //注册拦截器，添加拦截器
         registry.addInterceptor(passportInterceptor())
-                .addPathPatterns("/passport/smsCode");
+                .addPathPatterns("/password/smsCode");
     }
 }
