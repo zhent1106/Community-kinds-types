@@ -33,6 +33,12 @@
 				"navigationBarTitleText": "歌曲播放"
 			}
         }
+        ,{
+            "path" : "pages/sort/sort",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -51,7 +57,7 @@
 				"iconPath": "static/tabbar/shouye.png",
 				"selectedIconPath": "static/tabbar/shouyeed.png"
 			}, {
-				"pagePath": "pages/types/types",
+				"pagePath": "pages/sort/sort",
 				"text": "分类",
 				"iconPath": "static/tabbar/fenlei.png",
 				"selectedIconPath": "static/tabbar/fenleied.png"
