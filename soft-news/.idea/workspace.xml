@@ -2,13 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/common/unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/common/unit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/pages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-config-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../community-uni-app/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/vo/UserAccountInfoVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/META-INF/soft-news-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/enums/UserStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/enums/UserStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/GraceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/GraceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/GraceExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/GraceExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/MyCustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/exception/MyCustomException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/GraceResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/GraceResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/ResponseStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/result/ResponseStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/DesensitizationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/DesensitizationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/IpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/IpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/RedisOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/RedisOperator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/SmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/SmsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/extend/AliyunResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/com/soft1851/utils/extend/AliyunResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Code.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Code.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/DayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/DayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Id.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/IdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/IdWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/InvalidSystemClock.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/InvalidSystemClock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/RandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/RandomCodeStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Sid$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Sid.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/WorkerIdStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/WorkerIdStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/FileLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/HttpReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Ip.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Ip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Props$Silent.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Props$Silent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Serializes.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-common/target/soft-news-common.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-common/target/soft-news-common.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/classes/META-INF/soft-news-model.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/Fans.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/Fans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/RegistLoginBO$RegistLoginBOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/RegistLoginBO$RegistLoginBOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/RegistLoginBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/RegistLoginBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-model/target/soft-news-model.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/soft-news-model.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/UserControllerApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/META-INF/soft-news-service-api.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/config/Swagger2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/HelloControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/HelloControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/PassportControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/PassportControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/UserControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/controller/user/UserControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/interceptors/PassportInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/api/interceptors/PassportInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/my/mapper/MyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/classes/com/soft1851/my/mapper/MyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-api/target/soft-news-service-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/target/soft-news-service-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/soft-news-service-user.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +262,8 @@
       <workItem from="1605351991866" duration="3942000" />
       <workItem from="1605356069054" duration="1413000" />
       <workItem from="1605441701528" duration="10976000" />
-      <workItem from="1605518525907" duration="5962000" />
+      <workItem from="1605518525907" duration="8376000" />
+      <workItem from="1605570823914" duration="3751000" />
     </task>
     <servers />
   </component>
@@ -206,54 +274,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1605442575538">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1605581969186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605442575538" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1605520621752">
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1605581969186" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1605580287644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605520621752" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605580287644" />
     <state x="515" y="271" width="506" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605278803970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="271" width="506" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1605278803970" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605519255854">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605534636521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605519255854" />
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom" timestamp="1605452872594">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605534636521" />
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
-    <state width="1492" height="203" key="GridCell.Tab.0.center" timestamp="1605452872592">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605452872592" />
-    <state width="1492" height="203" key="GridCell.Tab.0.left" timestamp="1605452872592">
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605452872592" />
-    <state width="1492" height="203" key="GridCell.Tab.0.right" timestamp="1605452872594">
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom" timestamp="1605452872594">
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom" timestamp="1605581961465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
-    <state width="1492" height="203" key="GridCell.Tab.1.center" timestamp="1605452872594">
+    <state width="1493" height="241" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605581961465" />
+    <state width="1493" height="241" key="GridCell.Tab.1.center" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
-    <state width="1492" height="203" key="GridCell.Tab.1.left" timestamp="1605452872594">
+    <state width="1493" height="241" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.1.left" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
-    <state width="1492" height="203" key="GridCell.Tab.1.right" timestamp="1605452872594">
+    <state width="1493" height="241" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right" timestamp="1605581961464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="203" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605452872594" />
+    <state width="1493" height="241" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605581961464" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605522030828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,10 +334,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1605449320468" />
-    <state x="178" y="0" key="new project wizard" timestamp="1605278364747">
+    <state x="178" y="0" key="new project wizard" timestamp="1605534662875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605278364747" />
+    <state x="178" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605534662875" />
     <state x="973" y="345" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605330462409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

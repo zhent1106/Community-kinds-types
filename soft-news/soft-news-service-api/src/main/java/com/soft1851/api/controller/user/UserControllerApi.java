@@ -1,5 +1,6 @@
 package com.soft1851.api.controller.user;
 
+import com.soft1851.pojo.AppUser;
 import com.soft1851.result.GraceResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -16,13 +17,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Api(value = "用户相关Controller",tags = {"用户信息相关Controller"})
 @RequestMapping("user")
 public interface UserControllerApi {
-    /**
-     * 获得所有用户信息
-     * @return
-     */
- @ApiOperation(value = "获得所有用户信息",notes = "获得所有用户信息",httpMethod = "POST")
-    @PostMapping("/all")
-    Object getAllUser();
+//    /**
+//     * 获得所有用户信息
+//     * @return
+//     */
+// @ApiOperation(value = "获得所有用户信息",notes = "获得所有用户信息",httpMethod = "POST")
+//    @PostMapping("/all")
+//    Object getAllUser();
 
     /**
      * 获得用户基本信息
@@ -32,4 +33,11 @@ public interface UserControllerApi {
     @ApiOperation(value = "获得用户基本信息",notes = "获得用户基本信息",httpMethod = "POST")
     @PostMapping("/userInfo")
     GraceResult getUserInfo(@RequestParam String userId);
+
+    /**
+     * 查找用户
+     * @param userId
+     * @return
+     */
+    AppUser getUser(String userId);
 }
