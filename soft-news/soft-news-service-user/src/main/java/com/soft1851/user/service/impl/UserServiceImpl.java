@@ -9,8 +9,10 @@ import com.soft1851.user.mapper.AppUserMapper;
 import com.soft1851.user.service.UserService;
 import com.soft1851.utils.DateUtil;
 import com.soft1851.utils.DesensitizationUtil;
+import com.soft1851.utils.JsonUtil;
 import com.soft1851.utils.RedisOperator;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,7 @@ import java.util.Date;
  */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
+@Slf4j
 public class UserServiceImpl implements UserService {
     public final AppUserMapper appUserMapper;
     public final RedisOperator redis;
@@ -70,7 +73,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public AppUser getUser(String userId) {
+    public AppUser getUser(String userId)
+    {
+        log.info("<<<<<从数据库查询用户信息>>>>>");
         return appUserMapper.selectByPrimaryKey(userId);
     }
 
@@ -85,5 +90,9 @@ public class UserServiceImpl implements UserService {
         if (result!=1){
             GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
         }
+        //再次查询用户最新消息，放入redis
+        String userId=updateUserInfoBO.getId();
+        AppUser user=getUser(userId);
+        redis.set(REDIS_USER_INFO+":"+userId, JsonUtil.objectToJson(user));
     }
 }

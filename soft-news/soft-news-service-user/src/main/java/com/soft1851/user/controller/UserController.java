@@ -9,6 +9,7 @@ import com.soft1851.pojo.vo.UserAccountInfoVO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.user.service.UserService;
+import com.soft1851.utils.JsonUtil;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -45,9 +46,16 @@ private final UserService userService;
 
     }
 
-    @Override
-    public AppUser getUser(String userId) {
-        return userService.getUser(userId);
+    private AppUser getUser(String userId){
+       String userJson =redis.get(REDIS_USER_INFO+":"+userId);
+            AppUser user;
+         if (StringUtils.isNotBlank(userJson)){
+             user= JsonUtil.jsonToPojo(userJson,AppUser.class);
+         }else {
+          user=userService.getUser(userId);
+          redis.set(REDIS_USER_INFO+":"+userId,JsonUtil.objectToJson(user),1);
+         }
+        return user;
     }
 
     @Override
@@ -70,5 +78,4 @@ private final UserService userService;
         BeanUtils.copyProperties(user,userVO);
         return GraceResult.ok(userVO);
     }
-
 }

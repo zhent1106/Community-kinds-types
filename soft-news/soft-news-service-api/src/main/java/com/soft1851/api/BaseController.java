@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class BaseController {
     @Autowired
-    private RedisOperator redis;
+    public RedisOperator redis;
 
 
     public static final String MOBILE_SMSCODE = "mobile:smsCode";
