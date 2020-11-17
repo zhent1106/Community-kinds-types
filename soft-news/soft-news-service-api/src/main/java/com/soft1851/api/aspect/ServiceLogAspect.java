@@ -8,9 +8,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 /**
- * @author liulian
+ * @author tianzhen
  * @date 2020/11/17 17:17
  * @description AOP警告日志监控与sql打印
+ * 建立ServiceLogAspect切面
  */
 @Aspect
 @Component

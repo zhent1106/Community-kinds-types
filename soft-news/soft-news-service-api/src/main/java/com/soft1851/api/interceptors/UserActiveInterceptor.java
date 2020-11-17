@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author liulian
+ * @author tianzhen
  * @date 2020/11/17 15:39
  * @description 用户状态激活拦截器
  */
