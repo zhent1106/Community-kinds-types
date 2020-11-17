@@ -101,6 +101,13 @@ public class PasswordController extends BaseController implements PassportContro
         return GraceResult.ok(userActiveStatus);
     }
 
+    /**
+     * 退出登录
+     * @param request
+     * @param response
+     * @param userId
+     * @return
+     */
     @Override
     public GraceResult logout(HttpServletRequest request, HttpServletResponse response, String userId) {
         redis.del(REDIS_USER_INFO+":" +userId);
