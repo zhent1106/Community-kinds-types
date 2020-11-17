@@ -10,3 +10,7 @@ spring:
 
 website:
   domain-name: www.sn.com
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
