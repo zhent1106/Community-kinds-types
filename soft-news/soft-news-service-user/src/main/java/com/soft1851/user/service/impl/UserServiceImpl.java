@@ -82,6 +82,8 @@ public class UserServiceImpl implements UserService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void updateUserInfo(UpdateUserInfoBO updateUserInfoBO) {
+        String userId=updateUserInfoBO.getId();
+        redis.del(REDIS_USER_INFO+":"+userId);
         AppUser userInfo=new AppUser();
         BeanUtils.copyProperties(updateUserInfoBO,userInfo);
         userInfo.setUpdatedTime(new Date());
@@ -91,8 +93,13 @@ public class UserServiceImpl implements UserService {
             GraceException.display(ResponseStatusEnum.USER_UPDATE_ERROR);
         }
         //再次查询用户最新消息，放入redis
-        String userId=updateUserInfoBO.getId();
         AppUser user=getUser(userId);
         redis.set(REDIS_USER_INFO+":"+userId, JsonUtil.objectToJson(user));
+        try {
+            Thread.sleep(100);
+            redis.del(REDIS_USER_INFO+":"+userId);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
     }
 }
