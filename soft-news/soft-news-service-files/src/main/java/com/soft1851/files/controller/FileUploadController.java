@@ -12,6 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author tianzhen
  * @date 2020/11/19 14:33
@@ -61,5 +64,47 @@ public class FileUploadController implements FileUploadControllerApi {
             return GraceResult.errorCustom(ResponseStatusEnum.FILE_UPLOAD_FAILD);
         }
         return GraceResult.ok(finalPath);
+    }
+
+    @Override
+    public GraceResult uploadSomeFiles(String userId, MultipartFile[] files) throws Exception {
+        // 声明list，，用于存放多个图片的地址路径 返回到前端
+        List<String> imageUrlList = new ArrayList<>();
+        if (files != null && files.length > 0) {
+            for (MultipartFile file : files) {
+                String path;
+                if (file != null) {
+                    // 获得文件上传的名称
+                    String fileName = file.getOriginalFilename();
+                    // 判断文件名不能为空
+                    if (StringUtils.isNotBlank(fileName)) {
+                        String[] fileNameArr = fileName.split("\\.");
+                        // 获得后缀
+                        String suffix = fileNameArr[fileNameArr.length - 1];
+                        // 判断后缀符合我们的预定义规范
+                        if (!"png".equalsIgnoreCase(suffix) &&
+                                !"jpg".equalsIgnoreCase(suffix) &&
+                                !"jpeg".equalsIgnoreCase(suffix)
+                        ) {
+                            continue;
+                        }
+                        // 执行上传
+                        path = uploadService.uploadOSS(file, userId,suffix);
+                    }else {
+                        continue;
+                    }
+
+
+                }else  {
+                    continue;
+                }
+                String finalPath;
+                if (StringUtils.isNotBlank(path)) {
+                    finalPath = fileResource.getOssHost() + path;
+                    imageUrlList.add(finalPath);
+                }
+            }
+        }
+        return GraceResult.ok(imageUrlList);
     }
 }
