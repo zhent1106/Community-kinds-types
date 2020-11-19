@@ -23,6 +23,11 @@ public class GraceExceptionHandler {
         return GraceResult.exception(e.getResponseStatusEnum());
     }
 
+    /**
+     * 超过配置所指定的大小会统一抛出异常
+     * @param e
+     * @return
+     */
     @ExceptionHandler(MaxUploadSizeExceededException.class)
     @ResponseBody
     public GraceResult returnMaxUploadSizeExceededException(MaxUploadSizeExceededException e) {
