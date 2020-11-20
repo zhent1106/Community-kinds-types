@@ -1,0 +1,13 @@
+server:
+  port: 8005
+
+spring:
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+
+#设置域名
+website:
+  domain-name: admin.softnews.com
