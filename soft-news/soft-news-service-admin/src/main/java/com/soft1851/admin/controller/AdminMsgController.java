@@ -8,6 +8,7 @@ import com.soft1851.pojo.bo.AdminLoginBO;
 import com.soft1851.pojo.bo.NewAdminBO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
+import com.soft1851.utils.PageGridResult;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
@@ -71,24 +72,24 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         adminUserService.createAdminUser(newAdminBO);
         return GraceResult.ok();
     }
-//
-//    /**
-//     * 分页查询
-//     * @param page
-//     * @param pageSize
-//     * @return
-//     */
-//    @Override
-//    public GraceResult getAdminList(Integer page, Integer pageSize) {
-//        if (page == null){
-//            page = COMMON_START_PAGE;
-//        }
-//        if (pageSize == null){
-//            pageSize = COMMON_PAGE_SIZE;
-//        }
-//        PageGridResult result = adminUserService.queryAdminList(page,pageSize);
-//        return GraceResult.ok(result);
-//    }
+
+    /**
+     * 分页查询
+     * @param page
+     * @param pageSize
+     * @return
+     */
+    @Override
+    public GraceResult getAdminList(Integer page, Integer pageSize) {
+        if (page == null){
+            page = COMMON_START_PAGE;
+        }
+        if (pageSize == null){
+            pageSize = COMMON_PAGE_SIZE;
+        }
+        PageGridResult result = adminUserService.queryAdminList(page,pageSize);
+        return GraceResult.ok(result);
+    }
 //
 //    /**
 //     * 退出登录
