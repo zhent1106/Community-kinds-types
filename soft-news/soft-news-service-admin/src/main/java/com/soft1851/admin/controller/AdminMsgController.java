@@ -3,6 +3,7 @@ package com.soft1851.admin.controller;
 import com.soft1851.admin.service.AdminUserService;
 import com.soft1851.api.BaseController;
 import com.soft1851.api.controller.admin.AdminMsgControllerApi;
+import com.soft1851.exception.GraceException;
 import com.soft1851.pojo.AdminUser;
 import com.soft1851.pojo.bo.AdminLoginBO;
 import com.soft1851.pojo.bo.NewAdminBO;
@@ -13,9 +14,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.UUID;
 
 /**
  * @author ：tianzhen
@@ -90,51 +93,47 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         PageGridResult result = adminUserService.queryAdminList(page,pageSize);
         return GraceResult.ok(result);
     }
-//
-//    /**
-//     * 退出登录
-//     * @param adminId  管理员id
-//     * @param request  请求
-//     * @param response 响应
-//     * @return
-//     */
-//    @Override
-//    public GraceResult adminLogout(String adminId, HttpServletRequest request, HttpServletResponse response) {
-//        // 1. 从redis中删除admin的会话token
-//        redis.del(REDIS_ADMIN_TOKEN + ":" + adminId);
-//        // 2. 从cookie中清理admin登录的相关信息
-//        deleteCookie(request, response, "aToken");
-//        deleteCookie(request, response, "aId");
-//        deleteCookie(request, response, "aName");
-//        return GraceResult.ok();
-//    }
-//
-//    private void  checkAdminExist(String username){
-//        AdminUser admin = adminUserService.queryAdminByUsername(username);
-//
-//        if (admin != null){
-//            GraceException.display(ResponseStatusEnum.ADMIN_USERNAME_EXIST_ERROR);
-//        }
-//    }
-//
-//    /**
-//     * 用于admin用户登录过后的基本信息设置
-//     * @param admin
-//     * @param request
-//     * @param response
-//     */
-//    private void doLoginSettings(AdminUser admin,HttpServletRequest request,HttpServletResponse response){
-////        保留token放到redis
-//        String token = UUID.randomUUID().toString();
-//        redis.set(REDIS_ADMIN_TOKEN + ":" + admin.getId(),token);
-////        保存admin登录基本token信息到cookie中
-//        setCookie(request,response,"aToken",token,COOKIE_MONTH);
-//        setCookie(request,response,"aId",admin.getId(),COOKIE_MONTH);
-//        setCookie(request,response,"aName",admin.getAdminName(),COOKIE_MONTH);
-//    }
-//
-//    @Override
-//    public void postHandle(HttpServletResponse response, HttpServletRequest request, Object handler, ModelAndView modelAndView) throws Exception {
-//
-//    }
+
+    /**
+     * 退出登录
+     * @param adminId  管理员id
+     * @param request  请求
+     * @param response 响应
+     * @return
+     */
+    @Override
+    public GraceResult adminLogout(String adminId, HttpServletRequest request, HttpServletResponse response) {
+        // 1. 从redis中删除admin的会话token
+        redis.del(REDIS_ADMIN_TOKEN + ":" + adminId);
+        // 2. 从cookie中清理admin登录的相关信息
+        deleteCookie(request, response, "aToken");
+        deleteCookie(request, response, "aId");
+        deleteCookie(request, response, "aName");
+        return GraceResult.ok();
+    }
+
+    private void  checkAdminExist(String username){
+        AdminUser admin = adminUserService.queryAdminByUsername(username);
+
+        if (admin != null){
+            GraceException.display(ResponseStatusEnum.ADMIN_USERNAME_EXIST_ERROR);
+        }
+    }
+
+    /**
+     * 用于admin用户登录过后的基本信息设置
+     * @param admin
+     * @param request
+     * @param response
+     */
+    private void doLoginSettings(AdminUser admin,HttpServletRequest request,HttpServletResponse response){
+//        保留token放到redis
+        String token = UUID.randomUUID().toString();
+        redis.set(REDIS_ADMIN_TOKEN + ":" + admin.getId(),token);
+//        保存admin登录基本token信息到cookie中
+        setCookie(request,response,"aToken",token,COOKIE_MONTH);
+        setCookie(request,response,"aId",admin.getId(),COOKIE_MONTH);
+        setCookie(request,response,"aName",admin.getAdminName(),COOKIE_MONTH);
+    }
+
 }
