@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/bo/AdminLoginBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/AdminMsgController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/mapper/AdminUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/AdminUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/AdminUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/resources/mapper/AdminUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/admin/AdminMsgControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/BaseController.java" afterDir="false" />
-    </list>
+    <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +209,7 @@
       <workItem from="1605518525907" duration="8376000" />
       <workItem from="1605570823914" duration="16313000" />
       <workItem from="1605764582865" duration="13787000" />
-      <workItem from="1605881253007" duration="2963000" />
+      <workItem from="1605881253007" duration="3362000" />
     </task>
     <servers />
   </component>
