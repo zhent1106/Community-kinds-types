@@ -14,7 +14,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -65,7 +64,7 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
 //        密码不为空，则必须判断两次输入一致
         if (StringUtils.isNotBlank(newAdminBO.getPassword())){
             if (!newAdminBO.getPassword()
-            .equalsIgnoreCase(newAdminBO.getConfirmPassword())){
+                    .equalsIgnoreCase(newAdminBO.getConfirmPassword())){
                 return GraceResult.errorCustom(ResponseStatusEnum.ADMIN_PASSWORD_ERROR);
             }
         }

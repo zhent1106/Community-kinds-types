@@ -1,6 +1,7 @@
 package com.soft1851.api.interceptors;
 
 import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -18,6 +19,9 @@ public class UserTokenInterceptor extends BaseInterceptor implements HandlerInte
         String userToken =request.getHeader("headerUserToken");
         return verifyUserIdToken(userId,userToken,REDIS_USER_TOKEN);
     }
+    @Override
+    public void postHandle(HttpServletResponse response, HttpServletRequest request, Object handler, ModelAndView modelAndView) throws Exception {
 
+    }
 
 }

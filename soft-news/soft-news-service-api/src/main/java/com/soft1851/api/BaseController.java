@@ -92,4 +92,19 @@ public class BaseController {
         cookie.setPath("/");
         response.addCookie(cookie);
     }
+    /**
+     * 删除cookie
+     *
+     * @param request    请求
+     * @param response   响应
+     * @param cookieName cookie名称
+     */
+    public void deleteCookie(HttpServletRequest request, HttpServletResponse response, String cookieName) {
+        try {
+            String deleteValue = URLEncoder.encode("", "utf-8");
+            setCookieValue(request, response, cookieName, deleteValue, COOKIE_DELETE);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+    }
 }

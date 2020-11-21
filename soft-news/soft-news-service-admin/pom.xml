@@ -22,5 +22,12 @@
              <artifactId>lombok</artifactId>
              <scope>compile</scope>
          </dependency>
+         <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-crypto -->
+         <dependency>
+             <groupId>org.springframework.security</groupId>
+             <artifactId>spring-security-crypto</artifactId>
+             <version>5.4.1</version>
+         </dependency>
+
      </dependencies>
 </project>
