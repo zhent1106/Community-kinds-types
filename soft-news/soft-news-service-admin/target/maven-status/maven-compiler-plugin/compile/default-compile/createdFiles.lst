@@ -1,0 +1,5 @@
+com\soft1851\admin\service\AdminUserService.class
+com\soft1851\admin\controller\AdminMsgController.class
+com\soft1851\admin\service\impl\AdminUserServiceImpl.class
+com\soft1851\admin\mapper\AdminUserMapper.class
+com\soft1851\admin\Application.class

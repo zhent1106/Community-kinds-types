@@ -1,3 +1,4 @@
+
 server:
   port: 8005
 
@@ -8,6 +9,6 @@ spring:
     port: 6379
     password:
 
-#设置域名
+#设置域名,在java代码中获取,这里是资源配置
 website:
-  domain-name: admin.softnews.com
+  domai-name: www.softnews.com
