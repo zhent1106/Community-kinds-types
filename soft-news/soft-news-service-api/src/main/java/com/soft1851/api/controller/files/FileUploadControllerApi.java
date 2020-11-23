@@ -54,4 +54,16 @@ public interface FileUploadControllerApi {
     @GetMapping("/readInGridFS")
     GraceResult readInGridFS(@RequestParam String faceId,
                              HttpServletRequest request, HttpServletResponse response) throws Exception;
+
+    /***
+     * 从gridFS读取图片内容，并返回base64
+     * @param faceId
+     * @param request
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    @GetMapping("/readFace64")
+    GraceResult readFace64(@RequestParam String faceId,
+                             HttpServletRequest request, HttpServletResponse response) throws Exception;
 }

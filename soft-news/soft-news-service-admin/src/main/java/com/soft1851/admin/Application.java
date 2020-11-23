@@ -17,10 +17,6 @@ import tk.mybatis.spring.annotation.MapperScan;
 @ComponentScan(basePackages = {"com.soft1851", "org.n3r.idworker"})
 public class Application {
     public static void main(String[] args) {
-        try{
             SpringApplication.run(Application.class, args);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
     }
 }
