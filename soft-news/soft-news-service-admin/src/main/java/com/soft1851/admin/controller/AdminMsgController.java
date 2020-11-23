@@ -99,18 +99,20 @@ public class AdminMsgController extends BaseController implements AdminMsgContro
         deleteCookie(request,response,"aName");
         return GraceResult.ok();
     }
-//
-//    /**
-//     * 修改管理员信息
-//     * @param request
-//     * @param response
-//     * @param newAdminBO
-//     * @return
-//     */
-//    @Override
-//    public GraceResult updateAdmin(HttpServletRequest request, HttpServletResponse response, NewAdminBO newAdminBO) {
-//        return null;
-//    }
+
+    /**
+     * 修改管理员信息
+     * @param request
+     * @param response
+     * @param newAdminBO
+     * @return
+     */
+    @Override
+    public GraceResult updateAdmin(HttpServletRequest request, HttpServletResponse response, NewAdminBO newAdminBO) {
+        adminUserService.updateAdmin(newAdminBO.getUsername(),newAdminBO.getFaceId());
+
+        return GraceResult.ok(newAdminBO);
+    }
 
     private void checkAdminExist(String username) {
         AdminUser admin = adminUserService.queryAdminByUsername(username);
