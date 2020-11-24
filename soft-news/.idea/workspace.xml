@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/FriendLinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/controller/FriendLinkController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/FriendLinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/FriendLinkService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/FriendLinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/src/main/java/com/soft1851/admin/service/impl/FriendLinkServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-admin/target/classes/com/soft1851/admin/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/GirdFsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/GirdFsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/FileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/GridFsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/controller/GridFsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/resource/FileResource$FileResourceBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/resource/FileResource$FileResourceBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/resource/FileResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/resource/FileResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/UploadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/UploadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/impl/UploadServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-files/target/classes/com/soft1851/files/service/impl/UploadServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +223,7 @@
       <workItem from="1605970212980" duration="2387000" />
       <workItem from="1605973018113" duration="4698000" />
       <workItem from="1606137139640" duration="11744000" />
-      <workItem from="1606176343388" duration="11740000" />
+      <workItem from="1606176343388" duration="12301000" />
     </task>
     <servers />
   </component>
@@ -249,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606199864236" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606206884604">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606207479910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606206884604" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606207479910" />
     <state x="515" y="271" width="506" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605278803970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

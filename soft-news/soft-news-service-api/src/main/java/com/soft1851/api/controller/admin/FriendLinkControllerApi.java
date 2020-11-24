@@ -8,6 +8,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.validation.Valid;
 
@@ -38,4 +39,6 @@ public interface FriendLinkControllerApi {
     @PostMapping("/getFriendLinkList")
     GraceResult getFriendLinkList();
 
+
+    GraceResult delete(@RequestParam String linkId);
 }
