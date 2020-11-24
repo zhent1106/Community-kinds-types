@@ -46,4 +46,10 @@ public class FriendLinkController  extends BaseController implements FriendLinkC
         List<FriendLinkMO> list=friendLinkService.queryAllFriendLinkList();
         return GraceResult.ok(list);
     }
+
+    @Override
+    public GraceResult delete(String linkId) {
+        friendLinkService.delete(linkId);
+        return GraceResult.ok();
+    }
 }
