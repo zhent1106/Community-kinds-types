@@ -1,5 +1,9 @@
-F:\second-study\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\Application.java
-F:\second-study\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\mapper\AdminUserMapper.java
-F:\second-study\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\impl\AdminUserServiceImpl.java
-F:\second-study\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\AdminUserService.java
-F:\second-study\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\controller\AdminMsgController.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\controller\AdminMsgController.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\impl\FriendLinkServiceImpl.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\mapper\AdminUserMapper.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\FriendLinkService.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\AdminUserService.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\Application.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\repository\FriendLinkRepository.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\service\impl\AdminUserServiceImpl.java
+D:\3.学习资料\spring-cloud-review\soft-news\soft-news-service-admin\src\main\java\com\soft1851\admin\controller\FriendLinkController.java
