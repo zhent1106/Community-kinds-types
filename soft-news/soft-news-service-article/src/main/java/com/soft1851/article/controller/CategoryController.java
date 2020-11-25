@@ -14,24 +14,22 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * @ClassName ArticleController
- * @Description TODO
- * @Author 田震
- * @Date 2020/11/24
- **/
+ * @author xunmi
+ */
 @RestController
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class CategoryController extends BaseController implements CategoryControllerApi {
-    private  final CategoryService categoryService;
+        private  final CategoryService categoryService;
+
     @Override
     public GraceResult getAll() {
-        String allCategoryJson=redis.get(REDIS_ALL_CATEGORY);
+        String allCategoryJson =redis.get(REDIS_ALL_CATEGORY);
         List<Category> categoryList;
         if (StringUtils.isBlank(allCategoryJson)){
-            categoryList=categoryService.selectAll();
+            categoryList = categoryService.selectAll();
             redis.set(REDIS_ALL_CATEGORY, JsonUtil.objectToJson(categoryList));
         }else {
-            categoryList= JsonUtil.jsonToList(allCategoryJson,Category.class);
+            categoryList = JsonUtil.jsonToList(allCategoryJson,Category.class);
         }
         return GraceResult.ok(categoryList);
     }

@@ -4,14 +4,13 @@ import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
 
 /**
- * @ClassName ArticleService
- * @Description TODO
- * @Author 田震
- * @Date 2020/11/24
- **/
+ * @author xunmi
+ */
 public interface ArticleService {
+
     /**
      * 发布文章
+     *
      * @param newArticleBO
      * @param category
      */

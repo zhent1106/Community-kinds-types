@@ -20,33 +20,31 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ClassName ArticleController
- * @Description TODO
- * @Author 田震
- * @Date 2020/11/24
- **/
+ * @author xunmi
+ */
 @RestController
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class ArticleController extends BaseController implements ArticleControllerApi {
-    private  final ArticleService articleService;
+     private final ArticleService articleService;
+
     @Override
     public GraceResult createArticle(@Valid NewArticleBO newArticleBO, BindingResult result) {
         System.out.println(newArticleBO);
         System.out.println(result);
         if (result.hasErrors()){
-            Map<String,String> errorMap=getErrors(result);
+            Map<String,String> errorMap = getErrors(result);
             return GraceResult.errorMap(errorMap);
         }
         if (newArticleBO.getArticleType().equals(ArticleCoverType.ONE_IMAGE.type)){
             if (StringUtils.isBlank(newArticleBO.getArticleCover())){
-                return  GraceResult.errorCustom(ResponseStatusEnum.ARTICLE_COVER_NOT_EXIST_ERROR);
+                return GraceResult.errorCustom(ResponseStatusEnum.ARTICLE_COVER_NOT_EXIST_ERROR);
             }
-        } else if (newArticleBO.getArticleType().equals(ArticleCoverType.WORDS.type)) {
-
+        }else if (newArticleBO.getArticleType().equals(ArticleCoverType.WORDS.type)){
             newArticleBO.setArticleCover("");
         }
-        String allCatJson =redis.get(REDIS_ALL_CATEGORY);
-        Category temp=null;
+
+        String allCatJson = redis.get(REDIS_ALL_CATEGORY);
+        Category temp = null;
         if (StringUtils.isBlank(allCatJson)){
             return GraceResult.errorCustom(ResponseStatusEnum.SYSTEM_OPERATION_ERROR);
         }else {
@@ -65,5 +63,6 @@ public class ArticleController extends BaseController implements ArticleControll
         System.out.println(newArticleBO.toString());
         articleService.createArticle(newArticleBO,temp);
         return GraceResult.ok();
+
     }
 }

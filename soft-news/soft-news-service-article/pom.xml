@@ -11,16 +11,18 @@
 
     <artifactId>soft-news-service-article</artifactId>
 
-  <dependencies>
-      <dependency>
-          <groupId>com.soft1851</groupId>
-          <artifactId>soft-news-service-api</artifactId>
-          <version>1.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-          <scope>compile</scope>
-      </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.soft1851</groupId>
+            <artifactId>soft-news-service-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

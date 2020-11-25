@@ -1,15 +1,16 @@
 package com.soft1851.article;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
+ * @author xunmi
  * @ClassName ArticleApplication
  * @Description TODO
- * @Author 田震
  * @Date 2020/11/24
+ * @Version 1.0
  **/
 @SpringBootApplication
 @MapperScan(basePackages = "com.soft1851.article.mapper")

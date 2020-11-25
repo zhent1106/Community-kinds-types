@@ -5,11 +5,8 @@ import com.soft1851.pojo.Category;
 import org.springframework.stereotype.Repository;
 
 /**
- * @ClassName CategoryMapper
- * @Description TODO
- * @Author 田震
- * @Date 2020/11/24
- **/
+ * @author xunmi
+ */
 @Repository
 public interface CategoryMapper extends MyMapper<Category> {
 }

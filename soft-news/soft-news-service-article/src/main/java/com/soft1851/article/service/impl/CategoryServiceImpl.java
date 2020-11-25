@@ -10,15 +10,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @ClassName CategoryServiceImpl
- * @Description TODO
- * @Author 田震
- * @Date 2020/11/24
- **/
+ * @author xunmi
+ */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class CategoryServiceImpl implements CategoryService {
-    private  final CategoryMapper categoryMapper;
+    private final CategoryMapper categoryMapper;
+
+
     @Override
     public List<Category> selectAll() {
         return categoryMapper.selectAll();
