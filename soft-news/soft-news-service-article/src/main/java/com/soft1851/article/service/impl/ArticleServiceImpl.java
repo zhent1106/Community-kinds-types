@@ -13,14 +13,14 @@ import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.utils.AliTextReviewUtil;
-import jdk.internal.jline.internal.Log;
-import org.springframework.transaction.annotation.Transactional;
-import tk.mybatis.mapper.entity.Example;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.n3r.idworker.Sid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.Date;
 
@@ -29,6 +29,7 @@ import java.util.Date;
  */
 @Service
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
+@Slf4j
 public class ArticleServiceImpl implements ArticleService {
     private  final ArticleMapper articleMapper;
     private  final  ArticleMapperCustom articleMapperCustom;
@@ -60,15 +61,15 @@ public class ArticleServiceImpl implements ArticleService {
             GraceException.display(ResponseStatusEnum.ARTICLE_CREATE_ERROR);
         }
         String reviewResult = aliTextReviewUtil.reviewTextContent(newArticleBO.getTitle()+newArticleBO.getContent());
-        Log.info("审核结果"+reviewResult);
+        log.info("审核结果"+reviewResult);
         if (ArticleReviewLevel.PASS.type.equalsIgnoreCase(reviewResult)){
-            Log.info("审核通过");
+            log.info("审核通过");
             this.updateArticleStatus(articleId,ArticleReviewStatus.SUCCESS.type);
         }else  if (ArticleReviewLevel.REVIEW.type.equalsIgnoreCase(reviewResult)){
-            Log.info("需要人工复审");
+            log.info("需要人工复审");
             this.updateArticleStatus(articleId,ArticleReviewStatus.WAITING_MANUAL.type);
         }else  if (ArticleReviewLevel.BLOCK.type.equalsIgnoreCase(reviewResult)){
-            Log.info("审核不通过");
+            log.info("审核不通过");
             this.updateArticleStatus(articleId,ArticleReviewStatus.FAILED.type);
         }
     }
