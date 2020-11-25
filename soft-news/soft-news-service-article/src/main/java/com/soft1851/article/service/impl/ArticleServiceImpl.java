@@ -4,6 +4,7 @@ import com.soft1851.article.mapper.ArticleMapper;
 import com.soft1851.article.mapper.ArticleMapperCustom;
 import com.soft1851.article.service.ArticleService;
 import com.soft1851.enums.ArticleAppointType;
+import com.soft1851.enums.ArticleReviewLevel;
 import com.soft1851.enums.ArticleReviewStatus;
 import com.soft1851.enums.YesOrNo;
 import com.soft1851.exception.GraceException;
@@ -11,6 +12,8 @@ import com.soft1851.pojo.Article;
 import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
 import com.soft1851.result.ResponseStatusEnum;
+import com.soft1851.utils.AliTextReviewUtil;
+import jdk.internal.jline.internal.Log;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 import lombok.RequiredArgsConstructor;
@@ -29,6 +32,7 @@ import java.util.Date;
 public class ArticleServiceImpl implements ArticleService {
     private  final ArticleMapper articleMapper;
     private  final  ArticleMapperCustom articleMapperCustom;
+    private  final  AliTextReviewUtil aliTextReviewUtil;
     private  final Sid sid;
 
     @Override
@@ -54,6 +58,18 @@ public class ArticleServiceImpl implements ArticleService {
         int res = articleMapper.insert(article);
         if (res != 1){
             GraceException.display(ResponseStatusEnum.ARTICLE_CREATE_ERROR);
+        }
+        String reviewResult = aliTextReviewUtil.reviewTextContent(newArticleBO.getTitle()+newArticleBO.getContent());
+        Log.info("审核结果"+reviewResult);
+        if (ArticleReviewLevel.PASS.type.equalsIgnoreCase(reviewResult)){
+            Log.info("审核通过");
+            this.updateArticleStatus(articleId,ArticleReviewStatus.SUCCESS.type);
+        }else  if (ArticleReviewLevel.REVIEW.type.equalsIgnoreCase(reviewResult)){
+            Log.info("需要人工复审");
+            this.updateArticleStatus(articleId,ArticleReviewStatus.WAITING_MANUAL.type);
+        }else  if (ArticleReviewLevel.BLOCK.type.equalsIgnoreCase(reviewResult)){
+            Log.info("审核不通过");
+            this.updateArticleStatus(articleId,ArticleReviewStatus.FAILED.type);
         }
     }
 
