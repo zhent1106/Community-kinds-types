@@ -224,7 +224,30 @@
 			},
 			methods: {
 				//预览文章
-				preview() {},
+				preview() {
+					 //把临时的文章数据写入到sessionStorage中
+					          let articleTitle = this.articleTitle;
+					          if (this.isEmpty(articleTitle)) {
+					            alert("文章标题不能为空");
+					            return false;
+					          }
+					          //获得输入的内容
+					          let articleContent = $("#summernote").summernote("code");
+					          console.log(articleContent);
+					          if (this.isEmpty(articleContent)) {
+					            alert("文章内容不能为空");
+					            return false;
+					          }
+					          let articleBO = {
+					            title: articleTitle,
+					            content: articleContent,
+					            publishUserId: this.userInfo.uid,
+					          };
+					          let articleBOStr = JSON.stringify(articleBO);
+					          sessionStorage.setItem("previewArticleInfo", articleBOStr);
+					          window.location.href =
+					            "http://127.0.0.1:8848/types-app/preview.html";
+				},
 				//获得所有文章类型
 				getAllCategory() {
 					axios.get('http://127.0.0.1:8001/category/getAll')
