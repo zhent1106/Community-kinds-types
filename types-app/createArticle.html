@@ -245,7 +245,15 @@
 				},
 				// 定时发布
 				doTiming() {
-
+                  if(this.isAppoint==1){
+					  this.isAppoint=0
+					  this.appointWords='定时发布'
+					  this.timingDate=''
+					  $('#choose-date').val('')
+				  }else if(this.isAppoint==0){
+					  this.isAppoint=1
+					  this.appointWords='取消定时'
+				  }
 				},
 				// 发布文章
 				publish() {

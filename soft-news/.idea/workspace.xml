@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-service-article/service-user.2020-11-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/mapper/ArticleMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/ArticleMapperCustom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/bo/NewArticleBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/bo/NewArticleBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/NewArticleBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-model/target/classes/com/soft1851/pojo/bo/NewArticleBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/soft-news-service-article.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/ArticleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/Category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/src/main/resources/mapper/Category.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/ArticleApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/ArticleService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/com/soft1851/article/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/mapper/ArticleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-article/target/classes/mapper/Category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-article/target/classes/mapper/Category.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +34,33 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="soft_news@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="soft_news@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="soft_news@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="soft_news: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -102,6 +95,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -110,7 +104,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-service-article/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/soft-news-service-article/src/main/java/com/soft1851/article/task" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -252,7 +246,7 @@
       <workItem from="1605970212980" duration="2387000" />
       <workItem from="1605973018113" duration="4698000" />
       <workItem from="1606137139640" duration="11744000" />
-      <workItem from="1606176343388" duration="30680000" />
+      <workItem from="1606176343388" duration="32563000" />
     </task>
     <servers />
   </component>
@@ -267,10 +261,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606216094787" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606222308925">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606270763939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606222308925" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606270763939" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1606271031507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606271031507" />
     <state x="515" y="271" width="506" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605278803970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -279,38 +277,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605534636521" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1606270393847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606270393847" />
+    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1606270393846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606270393846" />
+    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1606270393846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606270393846" />
+    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1606270393846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.1.bottom" timestamp="1606268657862">
+    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606270393846" />
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom" timestamp="1606270393847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606268657862" />
-    <state width="1493" height="209" key="GridCell.Tab.1.center" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606270393847" />
+    <state width="1493" height="209" key="GridCell.Tab.1.center" timestamp="1606270393847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.1.left" timestamp="1606268657861">
+    <state width="1493" height="209" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606270393847" />
+    <state width="1493" height="209" key="GridCell.Tab.1.left" timestamp="1606270393847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606268657861" />
-    <state width="1493" height="209" key="GridCell.Tab.1.right" timestamp="1606268657862">
+    <state width="1493" height="209" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606270393847" />
+    <state width="1493" height="209" key="GridCell.Tab.1.right" timestamp="1606270393847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606268657862" />
+    <state width="1493" height="209" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606270393847" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1605888426114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

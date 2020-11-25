@@ -15,4 +15,16 @@ public interface ArticleService {
      * @param category
      */
     void createArticle(NewArticleBO newArticleBO, Category category);
+
+    /**
+     * 更新文章状态
+     * @param articleId
+     * @param pendingStatus
+     */
+    void updateArticleStatus(String articleId,Integer pendingStatus);
+
+    /**
+     * 更新定时发布为及时发布
+     */
+    void updateAppointToPublish();
 }
