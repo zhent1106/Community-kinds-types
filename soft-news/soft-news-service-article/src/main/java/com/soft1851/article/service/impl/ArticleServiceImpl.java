@@ -93,4 +93,34 @@ public class ArticleServiceImpl implements ArticleService {
         articleMapperCustom.updateAppointToPublish();
 
     }
+    @Transactional(rollbackFor = {Exception.class})
+    @Override
+    public void deleteArticle(String userId, String articleId) {
+        Example articleExample=makeExampleCriteria(userId,articleId);
+        Article pending=new Article();
+        pending.setIsDelete(YesOrNo.YES.type);
+        int result =articleMapper.updateByExampleSelective(pending,articleExample);
+        if (result!=1){
+            GraceException.display(ResponseStatusEnum.ARTICLE_DELETE_ERROR);
+        }
+    }
+    @Transactional(rollbackFor = {Exception.class})
+    @Override
+    public void withdrawArticle(String userId, String articleId) {
+        Example articleExample=makeExampleCriteria(userId,articleId);
+        Article pending=new Article();
+        pending.setArticleStatus(ArticleReviewStatus.WITHDRAW.type);
+        int result =articleMapper.updateByExampleSelective(pending,articleExample);
+        if (result!=1){
+            GraceException.display(ResponseStatusEnum.ARTICLE_WITHDRAW_ERROR);
+        }
+    }
+    private Example makeExampleCriteria(String  userId,String articleId){
+        Example articleExample =new Example(Article.class);
+        Example.Criteria criteria=articleExample.createCriteria();
+        criteria.andEqualTo("publishUserId",userId);
+        criteria.andEqualTo("id",articleId);
+        return articleExample;
+
+    }
 }
