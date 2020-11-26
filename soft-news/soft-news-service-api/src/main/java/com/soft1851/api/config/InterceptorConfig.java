@@ -29,6 +29,10 @@ public class InterceptorConfig implements WebMvcConfigurer {
     public UserActiveInterceptor userActiveInterceptor(){
         return  new UserActiveInterceptor();
     }
+//    @Bean
+//    public AdminActiveInterceptor adminActiveInterceptor(){
+//        return  new AdminActiveInterceptor();
+//    }
     @Override
     public  void addInterceptors(InterceptorRegistry registry){
         //注册拦截器，添加拦截器
@@ -37,7 +41,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
         registry.addInterceptor(userTokenInterceptor())
                 .addPathPatterns("/user/userBasicInfo")
                 .addPathPatterns("/user/updateUserInfo");
-        registry.addInterceptor(userActiveInterceptor())
-                .addPathPatterns("/fans/follow");
+//        registry.addInterceptor(userActiveInterceptor())
+//                .addPathPatterns("/fans/follow");
     }
 }
