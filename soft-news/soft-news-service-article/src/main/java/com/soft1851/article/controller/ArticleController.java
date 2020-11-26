@@ -12,6 +12,7 @@ import com.soft1851.pojo.vo.AppUserVO;
 import com.soft1851.pojo.vo.ArticleDetailVO;
 import com.soft1851.result.GraceResult;
 import com.soft1851.result.ResponseStatusEnum;
+import com.soft1851.utils.IpUtil;
 import com.soft1851.utils.JsonUtil;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
@@ -21,6 +22,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.List;
@@ -106,13 +108,22 @@ public class ArticleController extends BaseController implements ArticleControll
         ArticleDetailVO detailVO=articleService.queryDetail(articleId);
         Set<String> idSet=new HashSet<>();
         idSet.add(detailVO.getPublishUserId());
-        List<AppUserVO> publishList=getPublisherList(idSet);
-        if (!publishList.isEmpty()){
-            detailVO.setPublishUserName(publishList.get(0).getNickname());
+        List<AppUserVO> publisherList=getPublisherList(idSet);
+        if (!publisherList.isEmpty()){
+            detailVO.setPublishUserName(publisherList.get(0).getNickname());
         }
        detailVO.setReadCounts(getCountsFromRedis(REDIS_ARTICLE_READ_COUNTS+":"+articleId));
+        return GraceResult.ok(detailVO);
+    }
+
+    @Override
+    public GraceResult readArticle(String articleId, HttpServletRequest request) {
+        String userIp= IpUtil.getRequestIp(request);
+        redis.setnx(REDIS_ALL_CATEGORY+":"+articleId+":"+userIp,userIp);
+        redis.increment(REDIS_ARTICLE_READ_COUNTS+":"+articleId,1);
         return GraceResult.ok();
     }
+
     /**
      * 发起远程调用，获得用户的基本信息
      *

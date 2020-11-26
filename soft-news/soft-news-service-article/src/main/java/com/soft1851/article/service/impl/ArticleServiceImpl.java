@@ -126,7 +126,7 @@ public class ArticleServiceImpl implements ArticleService {
         article.setArticleStatus(ArticleReviewStatus.SUCCESS.type);
         Article result=articleMapper.selectOne(article);
         ArticleDetailVO detailVO=new ArticleDetailVO();
-        BeanUtils.copyProperties(result,detailVO);
+      BeanUtils.copyProperties(result,detailVO);
         detailVO.setCover(result.getArticleCover());
         return detailVO;
     }

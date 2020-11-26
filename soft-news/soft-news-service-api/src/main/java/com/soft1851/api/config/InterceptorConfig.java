@@ -1,5 +1,6 @@
 package com.soft1851.api.config;
 
+import com.soft1851.api.interceptors.ArticleReadInterceptor;
 import com.soft1851.api.interceptors.PassportInterceptor;
 import com.soft1851.api.interceptors.UserActiveInterceptor;
 import com.soft1851.api.interceptors.UserTokenInterceptor;
@@ -29,10 +30,10 @@ public class InterceptorConfig implements WebMvcConfigurer {
     public UserActiveInterceptor userActiveInterceptor(){
         return  new UserActiveInterceptor();
     }
-//    @Bean
-//    public AdminActiveInterceptor adminActiveInterceptor(){
-//        return  new AdminActiveInterceptor();
-//    }
+    @Bean
+    public ArticleReadInterceptor articleReadInterceptor(){
+        return  new ArticleReadInterceptor();
+    }
     @Override
     public  void addInterceptors(InterceptorRegistry registry){
         //注册拦截器，添加拦截器
@@ -41,6 +42,8 @@ public class InterceptorConfig implements WebMvcConfigurer {
         registry.addInterceptor(userTokenInterceptor())
                 .addPathPatterns("/user/userBasicInfo")
                 .addPathPatterns("/user/updateUserInfo");
+        registry.addInterceptor(articleReadInterceptor())
+                .addPathPatterns("/article/readArticle");
 //        registry.addInterceptor(userActiveInterceptor())
 //                .addPathPatterns("/fans/follow");
     }
