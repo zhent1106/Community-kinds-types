@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e06fa95e-6552-46df-9bf8-91d1c623d592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/soft-news-common/src/main/java/com/soft1851/enums/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/vo/FansCountVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soft-news-model/src/main/java/com/soft1851/pojo/vo/RegionRatioVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/FansControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-api/src/main/java/com/soft1851/api/controller/user/FansControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/FansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/controller/FansController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/FanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/FanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/impl/FanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/src/main/java/com/soft1851/user/service/impl/FanServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/FanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/FanService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/impl/FanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/soft-news-service-user/target/classes/com/soft1851/user/service/impl/FanServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +239,7 @@
       <workItem from="1605973018113" duration="4698000" />
       <workItem from="1606137139640" duration="11744000" />
       <workItem from="1606176343388" duration="46006000" />
-      <workItem from="1606370371031" duration="6753000" />
+      <workItem from="1606370371031" duration="8420000" />
     </task>
     <servers />
   </component>
