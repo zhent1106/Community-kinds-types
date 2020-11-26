@@ -2,6 +2,7 @@ package com.soft1851.article.service;
 
 import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
+import com.soft1851.pojo.vo.ArticleDetailVO;
 
 /**
  * @author xunmi
@@ -41,4 +42,11 @@ public interface ArticleService {
      * @param articleId
      */
     void  withdrawArticle(String userId,String  articleId);
+
+    /**
+     * 查询文章详情
+     * @param articleId
+     * @return
+     */
+    ArticleDetailVO queryDetail(String articleId);
 }

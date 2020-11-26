@@ -18,6 +18,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -77,5 +79,26 @@ private final UserService userService;
         AppUserVO userVO=new AppUserVO();
         BeanUtils.copyProperties(user,userVO);
         return GraceResult.ok(userVO);
+    }
+
+    @Override
+    public GraceResult queryByIds(String userIds) {
+        if (StringUtils.isBlank(userIds)){
+            return GraceResult.errorCustom(ResponseStatusEnum.USER_NOT_EXIST_ERROR);
+        }
+        List<AppUserVO> publisherList =new ArrayList<>();
+        List<String> userIdList=JsonUtil.jsonToList(userIds,String.class);
+        assert  userIdList!=null;
+        for (String userId:userIdList){
+            AppUserVO userVO=getBasicUserInfo(userId);
+publisherList.add(userVO);
+        }
+        return GraceResult.ok(publisherList);
+    }
+    private  AppUserVO getBasicUserInfo(String userId){
+        AppUser user=getUser(userId);
+        AppUserVO userVO=new AppUserVO();
+        BeanUtils.copyProperties(user,userVO);
+        return  userVO;
     }
 }

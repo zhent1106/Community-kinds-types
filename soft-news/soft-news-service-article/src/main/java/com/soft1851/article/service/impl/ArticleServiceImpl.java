@@ -11,6 +11,7 @@ import com.soft1851.exception.GraceException;
 import com.soft1851.pojo.Article;
 import com.soft1851.pojo.Category;
 import com.soft1851.pojo.bo.NewArticleBO;
+import com.soft1851.pojo.vo.ArticleDetailVO;
 import com.soft1851.result.ResponseStatusEnum;
 import com.soft1851.utils.AliTextReviewUtil;
 import lombok.RequiredArgsConstructor;
@@ -115,6 +116,21 @@ public class ArticleServiceImpl implements ArticleService {
             GraceException.display(ResponseStatusEnum.ARTICLE_WITHDRAW_ERROR);
         }
     }
+
+    @Override
+    public ArticleDetailVO queryDetail(String articleId) {
+        Article article=new Article();
+        article.setId(articleId);
+        article.setIsAppoint(YesOrNo.NO.type);
+        article.setIsDelete(YesOrNo.NO.type);
+        article.setArticleStatus(ArticleReviewStatus.SUCCESS.type);
+        Article result=articleMapper.selectOne(article);
+        ArticleDetailVO detailVO=new ArticleDetailVO();
+        BeanUtils.copyProperties(result,detailVO);
+        detailVO.setCover(result.getArticleCover());
+        return detailVO;
+    }
+
     private Example makeExampleCriteria(String  userId,String articleId){
         Example articleExample =new Example(Article.class);
         Example.Criteria criteria=articleExample.createCriteria();
