@@ -21,4 +21,11 @@ package com.soft1851.user.service;
      * @param fanId
      */
         void  follow(String writerId,String fanId);
+
+    /**
+     * 取消关注
+     * @param writerId
+     * @param fanId
+     */
+    void  unfollow(String writerId,String fanId);
     }

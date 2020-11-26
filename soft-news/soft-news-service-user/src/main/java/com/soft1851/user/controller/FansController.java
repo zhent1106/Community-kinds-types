@@ -29,4 +29,10 @@ public class FansController extends BaseController implements FansControllerApi 
         fanService.follow(writerId,fanId);
         return GraceResult.ok();
     }
+
+    @Override
+    public GraceResult unfollow(String writerId, String fanId) {
+        fanService.unfollow(writerId,fanId);
+        return GraceResult.ok();
+    }
 }

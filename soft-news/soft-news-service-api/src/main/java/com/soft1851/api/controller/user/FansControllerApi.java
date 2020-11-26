@@ -23,7 +23,7 @@ public interface FansControllerApi {
      * @return
      */
     @ApiOperation(value = "查询当前用户是否关注作者", notes = "查询当前用户是否关注作者", httpMethod = "POST")
-    @PostMapping("isMeFollowThisWriter")
+    @PostMapping("/isMeFollowThisWriter")
     GraceResult isMeFollowThisWriter(@RequestParam String writerId,@RequestParam String  fanId);
 
     /**
@@ -33,6 +33,16 @@ public interface FansControllerApi {
      * @return
      */
     @ApiOperation(value = "关注作者，成为粉丝", notes = "查询当前用户是否关注作者", httpMethod = "POST")
-    @PostMapping("follow")
+    @PostMapping("/follow")
     GraceResult follow(@RequestParam String writerId,@RequestParam String  fanId);
+
+    /**
+     * 取消关注
+     * @param writerId
+     * @param fanId
+     * @return
+     */
+    @ApiOperation(value = "取消关注", notes = "取消关注", httpMethod = "POST")
+    @PostMapping("/unfollow")
+    GraceResult unfollow(@RequestParam String writerId,@RequestParam String  fanId);
 }
