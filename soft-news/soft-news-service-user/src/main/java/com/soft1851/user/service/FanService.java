@@ -1,5 +1,10 @@
 package com.soft1851.user.service;
 
+import com.soft1851.enums.Sex;
+import com.soft1851.pojo.vo.RegionRatioVO;
+
+import java.util.List;
+
 /**
  * @ClassName FanService
  * @Description TODO
@@ -28,4 +33,19 @@ package com.soft1851.user.service;
      * @param fanId
      */
     void  unfollow(String writerId,String fanId);
+
+    /**
+     * 按性别统计粉丝数
+     * @param writerId
+     * @param sex
+     * @return
+     */
+    Integer queryFansCounts(String writerId, Sex sex);
+
+    /**
+     * 根据地域查询粉丝数量
+     * @param writerId
+     * @return
+     */
+    List<RegionRatioVO> queryRegionRatioCounts(String writerId);
     }
