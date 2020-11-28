@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const jwt = require('jwt-simple');
 const db = uniCloud.database();
 const loginConfig = {
-	appId: 'wxc9118718c860e9c6',
-	appSecret: 'e5f579e4416357bbaceb8ba255c8a6b9'
+	appId: 'wxfc53d71d50d19b89',
+	appSecret: 'b647d98e47daaf4dfd563a004d663ce2'
 };
 exports.main = async (event, context) => {
 	let data = {
