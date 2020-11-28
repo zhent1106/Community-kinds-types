@@ -9,7 +9,6 @@
 			</view>
 		</view>
 		<view class="bottom">
-			<!-- #ifdef MP-WEIXIN -->
 			<button
 				type="primary"
 				size="default"
@@ -21,7 +20,6 @@
 				<image src="../../static/images/mine/wechat.png"></image>
 				微信一键登录
 			</button>
-			<!-- #endif -->
 			<view
 				class="d-flex flex-column justify-content-evenly align-items-center text-center"
 				style="height: 30vh;"
@@ -71,7 +69,7 @@ export default {
 			let userInfo = e.detail.userInfo;
 			console.log(userInfo);
 			uni.showLoading({
-				title:'登陆中...'
+				title:'登录中...'
 			});
 			return new Promise((resolve, reject)=>{
 				uni.login({
@@ -84,7 +82,7 @@ export default {
 						}
 					},
 					fail(e) {
-						reject(new Error('微信登陆失败'));
+						reject(new Error('微信登录失败'));
 					}
 				});
 			})

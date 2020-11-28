@@ -254,29 +254,30 @@ var render = function() {
               )
             ],
             1
-          )
+          ),
+          _c("v-uni-view", { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } })
         ],
         1
       ),
       _c(
         "v-uni-view",
-        { staticClass: _vm._$g(6, "sc"), attrs: { _i: 6 } },
+        { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
         [
           _c(
             "v-uni-view",
-            { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
+            { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+                { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
                 [
                   _c("v-uni-image", {
-                    staticClass: _vm._$g(9, "sc"),
-                    attrs: { src: _vm._$g(9, "a-src"), _i: 9 }
+                    staticClass: _vm._$g(10, "sc"),
+                    attrs: { src: _vm._$g(10, "a-src"), _i: 10 }
                   }),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(10, "sc"), attrs: { _i: 10 } },
+                    { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
                     [_vm._v("自取")]
                   )
                 ],
@@ -284,15 +285,15 @@ var render = function() {
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
+                { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
                 [
                   _c("v-uni-image", {
-                    staticClass: _vm._$g(12, "sc"),
-                    attrs: { src: _vm._$g(12, "a-src"), _i: 12 }
+                    staticClass: _vm._$g(13, "sc"),
+                    attrs: { src: _vm._$g(13, "a-src"), _i: 13 }
                   }),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(13, "sc"), attrs: { _i: 13 } },
+                    { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
                     [_vm._v("外卖")]
                   )
                 ],
@@ -303,37 +304,37 @@ var render = function() {
           ),
           _c(
             "v-uni-view",
-            { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
+            { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
+                { staticClass: _vm._$g(16, "sc"), attrs: { _i: 16 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(16, "sc"), attrs: { _i: 16 } },
+                    { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
                     [
                       _c(
                         "v-uni-text",
-                        { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
+                        { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
                         [_vm._v("我的积分")]
                       ),
                       _c(
                         "v-uni-text",
-                        { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
-                        [_vm._v(_vm._$g(18, "t0-0"))]
+                        { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+                        [_vm._v(_vm._$g(19, "t0-0"))]
                       )
                     ],
                     1
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+                    { staticClass: _vm._$g(20, "sc"), attrs: { _i: 20 } },
                     [
                       _vm._v("进入积分商城兑换奈雪券及周边好礼"),
                       _c("v-uni-view", {
-                        staticClass: _vm._$g(20, "sc"),
-                        attrs: { _i: 20 }
+                        staticClass: _vm._$g(21, "sc"),
+                        attrs: { _i: 21 }
                       })
                     ],
                     1
@@ -343,12 +344,12 @@ var render = function() {
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(21, "sc"), attrs: { _i: 21 } },
+                { staticClass: _vm._$g(22, "sc"), attrs: { _i: 22 } },
                 [
                   _c("v-uni-image", {
-                    attrs: { src: _vm._$g(22, "a-src"), mode: "", _i: 22 }
+                    attrs: { src: _vm._$g(23, "a-src"), _i: 23 }
                   }),
-                  _c("v-uni-text", { attrs: { _i: 23 } }, [_vm._v("会员码")])
+                  _c("v-uni-text", { attrs: { _i: 24 } }, [_vm._v("会员码")])
                 ],
                 1
               )
@@ -357,29 +358,29 @@ var render = function() {
           ),
           _c(
             "v-uni-view",
-            { staticClass: _vm._$g(24, "sc"), attrs: { _i: 24 } },
+            { staticClass: _vm._$g(25, "sc"), attrs: { _i: 25 } },
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(25, "sc"), attrs: { _i: 25 } },
+                { staticClass: _vm._$g(26, "sc"), attrs: { _i: 26 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(26, "sc"), attrs: { _i: 26 } },
+                    { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
                     [
                       _c(
                         "v-uni-view",
-                        { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
+                        { staticClass: _vm._$g(28, "sc"), attrs: { _i: 28 } },
                         [
                           _c("v-uni-image", {
-                            staticClass: _vm._$g(28, "sc"),
-                            attrs: { src: _vm._$g(28, "a-src"), _i: 28 }
+                            staticClass: _vm._$g(29, "sc"),
+                            attrs: { src: _vm._$g(29, "a-src"), _i: 29 }
                           }),
                           _c(
                             "v-uni-view",
                             {
-                              staticClass: _vm._$g(29, "sc"),
-                              attrs: { _i: 29 }
+                              staticClass: _vm._$g(30, "sc"),
+                              attrs: { _i: 30 }
                             },
                             [_vm._v("奈雪的茶商城")]
                           )
@@ -389,28 +390,28 @@ var render = function() {
                       _c(
                         "v-uni-view",
                         {
-                          staticClass: _vm._$g(30, "sc"),
+                          staticClass: _vm._$g(31, "sc"),
                           staticStyle: {
                             "margin-left": "40rpx",
                             "font-size": "20rpx"
                           },
-                          attrs: { _i: 30 }
+                          attrs: { _i: 31 }
                         },
-                        [_vm._v("优质茶礼盒，网红零食")]
+                        [_vm._v("优质茶礼盒,网红零食")]
                       )
                     ],
                     1
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(31, "sc"), attrs: { _i: 31 } },
+                    { staticClass: _vm._$g(32, "sc"), attrs: { _i: 32 } },
                     [
                       _c("v-uni-image", {
-                        staticClass: _vm._$g(32, "sc"),
+                        staticClass: _vm._$g(33, "sc"),
                         attrs: {
-                          src: _vm._$g(32, "a-src"),
+                          src: _vm._$g(33, "a-src"),
                           mode: "heightFix",
-                          _i: 32
+                          _i: 33
                         }
                       })
                     ],
@@ -421,28 +422,28 @@ var render = function() {
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(33, "sc"), attrs: { _i: 33 } },
+                { staticClass: _vm._$g(34, "sc"), attrs: { _i: 34 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(34, "sc"), attrs: { _i: 34 } },
+                    { staticClass: _vm._$g(35, "sc"), attrs: { _i: 35 } },
                     [
                       _c("v-uni-image", {
-                        staticClass: _vm._$g(35, "sc"),
-                        attrs: { src: _vm._$g(35, "a-src"), _i: 35 }
+                        staticClass: _vm._$g(36, "sc"),
+                        attrs: { src: _vm._$g(36, "a-src"), _i: 36 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 36 } }, [
+                      _c("v-uni-view", { attrs: { _i: 37 } }, [
                         _vm._v("买茶送包")
                       ]),
                       _c(
                         "v-uni-view",
-                        { staticClass: _vm._$g(37, "sc"), attrs: { _i: 37 } },
+                        { staticClass: _vm._$g(38, "sc"), attrs: { _i: 38 } },
                         [
                           _c("v-uni-image", {
                             attrs: {
-                              src: _vm._$g(38, "a-src"),
+                              src: _vm._$g(39, "a-src"),
                               mode: "widthFix",
-                              _i: 38
+                              _i: 39
                             }
                           })
                         ],
@@ -453,24 +454,24 @@ var render = function() {
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(39, "sc"), attrs: { _i: 39 } },
+                    { staticClass: _vm._$g(40, "sc"), attrs: { _i: 40 } },
                     [
                       _c("v-uni-image", {
-                        staticClass: _vm._$g(40, "sc"),
-                        attrs: { src: _vm._$g(40, "a-src"), _i: 40 }
+                        staticClass: _vm._$g(41, "sc"),
+                        attrs: { src: _vm._$g(41, "a-src"), _i: 41 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 41 } }, [
+                      _c("v-uni-view", { attrs: { _i: 42 } }, [
                         _vm._v("会员券包")
                       ]),
                       _c(
                         "v-uni-view",
-                        { staticClass: _vm._$g(42, "sc"), attrs: { _i: 42 } },
+                        { staticClass: _vm._$g(43, "sc"), attrs: { _i: 43 } },
                         [
                           _c("v-uni-image", {
                             attrs: {
-                              src: _vm._$g(43, "a-src"),
+                              src: _vm._$g(44, "a-src"),
                               mode: "widthFix",
-                              _i: 43
+                              _i: 44
                             }
                           })
                         ],
@@ -487,47 +488,50 @@ var render = function() {
           ),
           _c(
             "v-uni-view",
-            { staticClass: _vm._$g(44, "sc"), attrs: { _i: 44 } },
+            { staticClass: _vm._$g(45, "sc"), attrs: { _i: 45 } },
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(45, "sc"), attrs: { _i: 45 } },
+                { staticClass: _vm._$g(46, "sc"), attrs: { _i: 46 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(46, "sc"), attrs: { _i: 46 } },
+                    { staticClass: _vm._$g(47, "sc"), attrs: { _i: 47 } },
                     [_vm._v("会员新鲜事")]
                   ),
                   _c("v-uni-view", {
-                    staticClass: _vm._$g(47, "sc"),
-                    attrs: { _i: 47 }
+                    staticClass: _vm._$g(48, "sc"),
+                    attrs: { _i: 48 }
                   })
                 ],
                 1
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(48, "sc"), attrs: { _i: 48 } },
+                { staticClass: _vm._$g(49, "sc"), attrs: { _i: 49 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(49, "sc"), attrs: { _i: 49 } },
+                    { staticClass: _vm._$g(50, "sc"), attrs: { _i: 50 } },
                     [
                       _c("v-uni-image", {
                         attrs: {
                           src:
                             "https://img-shop.qmimg.cn/s23107/2020/04/27/0039bf41c9ebd50a2c.jpg",
-                          _i: 50
+                          _i: 51
                         }
                       }),
                       _c(
                         "v-uni-view",
-                        { staticClass: _vm._$g(51, "sc"), attrs: { _i: 51 } },
-                        [_vm._v("“梅”你不行|霸气杨梅清爽回归")]
+                        { staticClass: _vm._$g(52, "sc"), attrs: { _i: 52 } },
+                        [_vm._v('"梅你不行 | 霸气杨梅清爽回归"')]
                       )
                     ],
                     1
-                  )
+                  ),
+                  _c("v-uni-text", { attrs: { _i: 53 } }, [
+                    _vm._v(_vm._$g(53, "t0-0"))
+                  ])
                 ],
                 1
               )
@@ -629,7 +633,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.banner {\n  position: relative;\n  height: 600rpx;\n  width: 100%;\n}\n.banner .bg {\n  height: 600rpx;\n  width: 100%;\n}\n.banner .intro {\n  position: absolute;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  color: #ffffff;\n  top: calc(50rpx + var(--status-bar-height));\n  left: 40rpx;\n}\n.banner .intro .greet {\n  font-size: 32rpx;\n  margin-bottom: 10rpx;\n}\n.banner .intro .note {\n  font-size: 24rpx;\n}\n.content {\n  padding: 0 30rpx;\n}\n.content .entrance {\n  position: relative;\n  margin-top: -80rpx;\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  padding: 30rpx 0;\n}\n.content .entrance .item {\n  position: relative;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .entrance .item:nth-child(1):after {\n  content: '';\n  position: absolute;\n  width: 1rpx;\n  background-color: #919293;\n  right: 0;\n  height: 100%;\n  -webkit-transform: scaleX(0.5) scaleY(0.8);\n          transform: scaleX(0.5) scaleY(0.8);\n}\n.content .entrance .item .icon {\n  width: 84rpx;\n  height: 84rpx;\n  margin: 20rpx;\n}\n.content .entrance .item .title {\n  font-size: 30rpx;\n  font-weight: 600;\n  color: #5a5b5c;\n}\n.content .info {\n  position: relative;\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 30rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .info .integral-section {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .info .integral-section .top {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .integral-section .top .title {\n  color: #5a5b5c;\n  font-size: 28rpx;\n  margin-right: 10rpx;\n}\n.content .info .integral-section .top .value {\n  font-size: 44rpx;\n  font-weight: bold;\n}\n.content .info .integral-section .bottom {\n  font-size: 24rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  color: #919293;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .qrcode_section {\n  color: #adb838;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  font-size: 24rpx;\n}\n.content .info .qrcode_section uni-image {\n  width: 40rpx;\n  height: 40rpx;\n  margin-bottom: 10rpx;\n}\n.content .navigators {\n  width: 100%;\n  margin-bottom: 20rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n          align-items: stretch;\n}\n.content .navigators .left {\n  width: 340rpx;\n  margin-right: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 0 20rpx;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  background-color: #f2f2e6;\n}\n.content .navigators .left .grid {\n  height: 50%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n}\n.content .navigators .right {\n  width: 290rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .navigators .right .tea-activity,\n.content .navigators .right .member-gifts {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 20rpx;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  position: relative;\n}\n.content .navigators .right .tea-activity {\n  background-color: #fdf3f2;\n  margin-bottom: 20rpx;\n}\n.content .navigators .right .member-gifts {\n  background-color: #fcf6d4;\n}\n.content .navigators .right .right-img {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  position: relative;\n  margin-left: 20rpx;\n  margin-right: -20rpx;\n  margin-bottom: -20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: end;\n  -webkit-align-items: flex-end;\n          align-items: flex-end;\n}\n.content .navigators .right .right-img uni-image {\n  width: 100%;\n}\n.content .navigators .mark-img {\n  width: 30rpx;\n  height: 30rpx;\n  margin-right: 10rpx;\n}\n.content .navigators .yzclh-img {\n  height: 122.96rpx;\n  width: 214.86rpx;\n}\n.content .member-news {\n  width: 100%;\n  margin-bottom: 30rpx;\n}\n.content .member-news .header {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n  padding: 20rpx 0;\n}\n.content .member-news .header .title {\n  font-size: 32rpx;\n  font-weight: bold;\n}\n.content .member-news .header .iconfont {\n  font-size: 52rpx;\n  color: #919293;\n}\n.content .member-news .list {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .member-news .list .item {\n  width: 100%;\n  height: 240rpx;\n  position: relative;\n}\n.content .member-news .list .item uni-image {\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n}\n.content .member-news .list .title {\n  position: relative;\n  font-size: 32rpx;\n  font-weight: 500;\n  width: 100%;\n  top: -70rpx;\n  left: -70rpx;\n  left: 16rpx;\n  color: #ffffff;\n}\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.banner {\n  position: relative;\n  height: 600rpx;\n  width: 100%;\n}\n.banner .bg {\n  height: 600rpx;\n  width: 100%;\n}\n.banner .intro {\n  position: absolute;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  color: #ffffff;\n  top: calc(50rpx + var(--status-bar-height));\n  left: 40rpx;\n}\n.banner .intro .greet {\n  font-size: 32rpx;\n  margin-bottom: 10rpx;\n}\n.banner .intro .note {\n  font-size: 24rpx;\n}\n.content {\n  padding: 0 30 rpx;\n}\n.content .entrance {\n  position: relative;\n  margin-top: -80rpx;\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  padding: 30rpx 0;\n}\n.content .entrance .item {\n  position: relative;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .entrance .item:nth-child(1):after {\n  content: '';\n  position: absolute;\n  width: 1rpx;\n  background-color: #919293;\n  right: 0;\n  height: 100%;\n  -webkit-transform: scaleX(0.5) scaleY(0.8);\n          transform: scaleX(0.5) scaleY(0.8);\n}\n.content .entrance .item .icon {\n  width: 84rpx;\n  height: 84rpx;\n  margin: 20rpx;\n}\n.content .entrance .item .title {\n  font-size: 30rpx;\n  font-weight: 600;\n  color: #5a5b5c;\n}\n.content .info {\n  position: relative;\n  margin-bottom: 30rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 30rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .info .integral_section {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.content .info .integral_section .top {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .integral_section .top .title {\n  color: #5a5b5c;\n  font-size: 28rpx;\n  margin-right: 10rpx;\n}\n.content .info .integral_section .top .value {\n  font-size: 44rpx;\n  font-weight: bold;\n}\n.content .info .integral_section .bottom {\n  font-size: 24rpx;\n  color: #919293;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.content .info .grcode_section {\n  color: #adb838;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  font-size: 24rpx;\n}\n.content .info .grcode_section uni-image {\n  width: 40rpx;\n  height: 40rpx;\n  margin-bottom: 10rpx;\n}\n.content .navigators {\n  width: 100%;\n  margin-bottom: 20rpx;\n  -webkit-border-radius: 10rpx;\n          border-radius: 10rpx;\n  background-color: #ffffff;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n  padding: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: stretch;\n  -webkit-align-items: stretch;\n          align-items: stretch;\n}\n.content .navigators .left {\n  width: 340rpx;\n  margin-right: 20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 0 20rpx;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  background-color: #f2f2e6;\n}\n.content .navigators .left .grid {\n  height: 50%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n}\n.content .navigators .right {\n  width: 350rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .navigators .right .tea-activity,\n.content .navigators .right .member-gifts {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 20rpx;\n  font-size: 24rpx;\n  color: #5a5b5c;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  position: relative;\n}\n.content .navigators .right .tea-activity {\n  background-color: #fdf3f2;\n  margin-bottom: 20rpx;\n}\n.content .navigators .right .member-gifts {\n  background-color: #fcf6d4;\n}\n.content .navigators .right .right-img {\n  -webkit-box-flex: 1;\n  -webkit-flex: 1;\n          flex: 1;\n  position: relative;\n  margin-left: 20rpx;\n  margin-right: -20rpx;\n  margin-bottom: -20rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: end;\n  -webkit-align-items: flex-end;\n          align-items: flex-end;\n}\n.content .navigators .right .right-img uni-image {\n  width: 100%;\n}\n.content .navigators .mark-img {\n  width: 30rpx;\n  height: 30rpx;\n  margin-right: 10rpx;\n}\n.content .navigators .yzclh-img {\n  height: 122.96rpx;\n  width: 214.86rpx;\n}\n.content .member-news {\n  width: 100%;\n  margin-bottom: 30rpx;\n}\n.content .member-news .header {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: justify;\n  -webkit-justify-content: space-between;\n          justify-content: space-between;\n  padding: 20rpx 0;\n}\n.content .member-news .header .title {\n  font-size: 32rpx;\n  font-weight: bold;\n}\n.content .member-news .header .iconfont {\n  font-size: 52rpx;\n  color: #919293;\n}\n.content .member-news .list {\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n}\n.content .member-news .list .item {\n  width: 100%;\n  height: 240rpx;\n  position: relative;\n}\n.content .member-news .list .item uni-image {\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n}\n.content .member-news .list .item .title {\n  position: relative;\n  font-size: 32rpx;\n  font-weight: 500;\n  width: 100%;\n  top: -70rpx;\n  left: 16rpx;\n  color: #ffffff;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1498,32 +1502,563 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "v-uni-view",
-    { attrs: { _i: 0 } },
+    { staticClass: _vm._$g(0, "sc"), attrs: { _i: 0 } },
     [
-      _vm._$g(1, "i")
-        ? _c(
-            "v-uni-view",
-            { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(1, "sc"), attrs: { _i: 1 } },
+        [
+          _c("v-uni-image", {
+            staticClass: _vm._$g(2, "sc"),
+            attrs: {
+              src:
+                "https://img-shop.qmimg.cn/s16/images/2020/01/20/9a82219bedcae5c2.jpeg",
+              _i: 2
+            }
+          }),
+          _c(
+            "v-uni-button",
+            {
+              staticClass: _vm._$g(3, "sc"),
+              attrs: { type: "default", size: "mini", _i: 3 }
+            },
             [
-              _c("v-uni-text", { attrs: { _i: 2 } }, [
-                _vm._v(_vm._$g(2, "t0-0"))
-              ])
+              _c("v-uni-image", {
+                attrs: { src: "/static/images/mine/hym.png", _i: 4 }
+              }),
+              _c("v-uni-text", { attrs: { _i: 5 } }, [_vm._v("会员码")])
             ],
             1
           )
-        : _c(
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticStyle: { padding: "0 30rpx" }, attrs: { _i: 6 } },
+        [
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: _vm._$g(10, "a-src"), _i: 10 }
+                      }),
+                      _vm._$g(11, "i")
+                        ? _c(
+                            "v-uni-view",
+                            {
+                              staticClass: _vm._$g(11, "sc"),
+                              attrs: { _i: 11 }
+                            },
+                            [
+                              _c("v-uni-image", {
+                                attrs: {
+                                  src: "/static/images/mine/level.png",
+                                  _i: 12
+                                }
+                              }),
+                              _c("v-uni-view", { attrs: { _i: 13 } }, [
+                                _vm._v(_vm._$g(13, "t0-0"))
+                              ])
+                            ],
+                            1
+                          )
+                        : _vm._e()
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    {
+                      staticClass: _vm._$g(14, "sc"),
+                      staticStyle: { "margin-top": "20rpx" },
+                      attrs: { _i: 14 }
+                    },
+                    [
+                      _vm._$g(15, "i")
+                        ? _c(
+                            "v-uni-view",
+                            {
+                              staticClass: _vm._$g(15, "sc"),
+                              attrs: { _i: 15 }
+                            },
+                            [
+                              _c(
+                                "v-uni-view",
+                                {
+                                  staticClass: _vm._$g(16, "sc"),
+                                  attrs: { _i: 16 }
+                                },
+                                [_vm._v(_vm._$g(16, "t0-0"))]
+                              ),
+                              _c("v-uni-view", {
+                                staticClass: _vm._$g(17, "sc"),
+                                attrs: { _i: 17 }
+                              })
+                            ],
+                            1
+                          )
+                        : _c(
+                            "v-uni-view",
+                            {
+                              staticClass: _vm._$g(18, "sc"),
+                              attrs: { _i: 18 },
+                              on: {
+                                click: function($event) {
+                                  return _vm.$handleViewEvent($event)
+                                }
+                              }
+                            },
+                            [_vm._v("请点击授权登录")]
+                          ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(19, "sc"), attrs: { _i: 19 } },
+                        [
+                          _vm._v(
+                            "当前成长值" +
+                              _vm._$g(19, "t0-0") +
+                              "/" +
+                              _vm._$g(19, "t0-1")
+                          )
+                        ]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(20, "sc"), attrs: { _i: 20 } },
+                        [
+                          _c("v-uni-progress", {
+                            attrs: {
+                              percent: "0",
+                              activeColor: "#ADB838",
+                              height: "8rpx",
+                              percent: _vm._$g(21, "a-percent"),
+                              "border-radius": "8rpx",
+                              _i: 21
+                            }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(22, "sc"), attrs: { _i: 22 } },
+                    [
+                      _c("v-uni-view", { attrs: { _i: 23 } }, [
+                        _vm._v("会员权益")
+                      ]),
+                      _c("v-uni-view", {
+                        staticClass: _vm._$g(24, "sc"),
+                        attrs: { _i: 24 }
+                      })
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(25, "sc"), attrs: { _i: 25 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(26, "sc"), attrs: { _i: 26 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
+                        [_vm._v(_vm._$g(27, "t0-0"))]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(28, "sc"), attrs: { _i: 28 } },
+                        [_vm._v("奈雪券")]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(29, "sc"), attrs: { _i: 29 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(30, "sc"), attrs: { _i: 30 } },
+                        [_vm._v(_vm._$g(30, "t0-0"))]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(31, "sc"), attrs: { _i: 31 } },
+                        [_vm._v("积分商城")]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(32, "sc"), attrs: { _i: 32 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(33, "sc"), attrs: { _i: 33 } },
+                        [_vm._v(_vm._$g(33, "t0-0"))]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(34, "sc"), attrs: { _i: 34 } },
+                        [_vm._v("余额")]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(35, "sc"), attrs: { _i: 35 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(36, "sc"), attrs: { _i: 36 } },
+                        [_vm._v(_vm._$g(36, "t0-0"))]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(37, "sc"), attrs: { _i: 37 } },
+                        [_vm._v("礼品卡")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._$g(38, "i")
+            ? _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(38, "sc"), attrs: { _i: 38 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(39, "sc"), attrs: { _i: 39 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(40, "sc"), attrs: { _i: 40 } },
+                        [_vm._v("新用户加入会员，享会员权益")]
+                      ),
+                      _c(
+                        "v-uni-view",
+                        {
+                          staticClass: _vm._$g(41, "sc"),
+                          attrs: { _i: 41 },
+                          on: {
+                            click: function($event) {
+                              return _vm.$handleViewEvent($event)
+                            }
+                          }
+                        },
+                        [_vm._v("立即加入")]
+                      )
+                    ],
+                    1
+                  ),
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(42, "sc"), attrs: { _i: 42 } },
+                    [
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(43, "sc"), attrs: { _i: 43 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: "/static/images/mine/rhyl.png",
+                              _i: 44
+                            }
+                          }),
+                          _c("v-uni-view", { attrs: { _i: 45 } }, [
+                            _vm._v("入会有礼")
+                          ])
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(46, "sc"), attrs: { _i: 46 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: "/static/images/mine/jfdh.png",
+                              _i: 47
+                            }
+                          }),
+                          _c("v-uni-view", { attrs: { _i: 48 } }, [
+                            _vm._v("积分兑换")
+                          ])
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(49, "sc"), attrs: { _i: 49 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: "/static/images/mine/sjtq.png",
+                              _i: 50
+                            }
+                          }),
+                          _c("v-uni-view", { attrs: { _i: 51 } }, [
+                            _vm._v("升级特权")
+                          ])
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(52, "sc"), attrs: { _i: 52 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: "/static/images/mine/srtq.png",
+                              _i: 53
+                            }
+                          }),
+                          _c("v-uni-view", { attrs: { _i: 54 } }, [
+                            _vm._v("生日特权")
+                          ])
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(55, "sc"), attrs: { _i: 55 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: "/static/images/mine/nxbz.png",
+                              _i: 56
+                            }
+                          }),
+                          _c("v-uni-view", { attrs: { _i: 57 } }, [
+                            _vm._v("奈雪宝藏")
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            : _vm._e(),
+          _c("v-uni-image", {
+            staticClass: _vm._$g(58, "sc"),
+            attrs: {
+              src: "/static/images/mine/banner.png",
+              mode: "widthFix",
+              _i: 58
+            }
+          })
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        { staticClass: _vm._$g(59, "sc"), attrs: { _i: 59 } },
+        [
+          _c(
             "v-uni-view",
             {
-              staticClass: _vm._$g(3, "sc"),
-              attrs: { _i: 3 },
-              on: {
-                click: function($event) {
-                  return _vm.$handleViewEvent($event)
-                }
-              }
+              staticClass: _vm._$g(60, "sc"),
+              staticStyle: { "margin-bottom": "20rpx" },
+              attrs: { _i: 60 }
             },
-            [_vm._v("请点击授权登录")]
+            [_vm._v("我的服务")]
+          ),
+          _c(
+            "v-uni-view",
+            { staticClass: _vm._$g(61, "sc"), attrs: { _i: 61 } },
+            [
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(62, "sc"), attrs: { _i: 62 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(63, "sc"), attrs: { _i: 63 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/jfqd.png", _i: 64 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 65 } }, [_vm._v("积分签到")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(66, "sc"), attrs: { _i: 66 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(67, "sc"), attrs: { _i: 67 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/stxy.png", _i: 68 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 69 } }, [_vm._v("送她心愿")]),
+                  _c("v-uni-image", {
+                    staticClass: _vm._$g(70, "sc"),
+                    attrs: { src: _vm._$g(70, "a-src"), _i: 70 }
+                  })
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(71, "sc"), attrs: { _i: 71 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(72, "sc"), attrs: { _i: 72 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/nxsc.png", _i: 73 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 74 } }, [_vm._v("奈雪商城")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(75, "sc"), attrs: { _i: 75 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(76, "sc"), attrs: { _i: 76 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/lxkf.png", _i: 77 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 78 } }, [_vm._v("联系客服")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(79, "sc"), attrs: { _i: 79 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(80, "sc"), attrs: { _i: 80 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/wddd.png", _i: 81 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 82 } }, [_vm._v("我的订单")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(83, "sc"), attrs: { _i: 83 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(84, "sc"), attrs: { _i: 84 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/wdzl.png", _i: 85 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 86 } }, [_vm._v("我的资料")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(87, "sc"), attrs: { _i: 87 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(88, "sc"), attrs: { _i: 88 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/shdz.png", _i: 89 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 90 } }, [_vm._v("收货地址")])
+                ],
+                1
+              ),
+              _c(
+                "v-uni-view",
+                { staticClass: _vm._$g(91, "sc"), attrs: { _i: 91 } },
+                [
+                  _c(
+                    "v-uni-view",
+                    { staticClass: _vm._$g(92, "sc"), attrs: { _i: 92 } },
+                    [
+                      _c("v-uni-image", {
+                        attrs: { src: "/static/images/mine/gdfw.png", _i: 93 }
+                      })
+                    ],
+                    1
+                  ),
+                  _c("v-uni-view", { attrs: { _i: 94 } }, [_vm._v("更多服务")])
+                ],
+                1
+              )
+            ],
+            1
           )
+        ],
+        1
+      ),
+      _c(
+        "v-uni-view",
+        {
+          staticClass: _vm._$g(95, "sc"),
+          staticStyle: { padding: "30rpx 0", "font-size": "22rpx" },
+          attrs: { _i: 95 }
+        },
+        [_vm._v("会员卡适用于奈雪的茶和奈雪酒屋指定范围")]
+      )
     ],
     1
   )
@@ -1616,7 +2151,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\n.intro[data-v-984eb594] {\n  width: 100%;\n}\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n/**\n * 这里是uni-app内置的常用样式变量\n *\n * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量\n * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App\n *\n */\n/**\n * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能\n *\n * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件\n */\n/* 颜色变量 */\n/* 全局色彩 */\n/* 文字基本颜色 */\n/* 背景颜色 */\n/* 边框颜色 */\n/* 尺寸变量 */\n/* 文字尺寸 */\n/* 图片尺寸 */\n/* Border Radius */\n/* 水平间距 */\n/* 垂直间距 */\n/* 透明度 */\n/* 文章场景相关 */\nbody[data-v-984eb594] {\n  height: auto;\n  min-height: 100%;\n}\n.bg[data-v-984eb594] {\n  width: 100%;\n  height: calc(410 / 594 * 750rpx);\n}\n.hym-btn[data-v-984eb594] {\n  position: absolute;\n  top: 40rpx;\n  right: 40rpx;\n  color: #adb838;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  -webkit-border-radius: 50rem;\n          border-radius: 50rem;\n  font-size: 24rpx;\n  -webkit-box-shadow: 0 0 20rpx rgba(66, 66, 66, 0.1);\n          box-shadow: 0 0 20rpx rgba(66, 66, 66, 0.1);\n}\n.hym-btn[data-v-984eb594]::after {\n  border: 0;\n}\n.hym-btn uni-image[data-v-984eb594] {\n  width: 30rpx;\n  height: 30rpx;\n  margin-right: 10rpx;\n}\n.user-box[data-v-984eb594] {\n  position: relative;\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n  margin-bottom: 30rpx;\n  margin-top: -115rpx;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n}\n.avatar[data-v-984eb594] {\n  position: relative;\n  margin-top: -35rpx;\n  margin-left: 35rpx;\n  margin-right: 35rpx;\n  width: 160rpx;\n  height: 160rpx;\n  -webkit-border-radius: 100%;\n          border-radius: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  background-color: #FFFFFF;\n  -webkit-box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);\n          box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);\n}\n.avatar uni-image[data-v-984eb594] {\n  width: 140rpx;\n  height: 140rpx;\n  -webkit-border-radius: 100%;\n          border-radius: 100%;\n}\n.avatar .badge[data-v-984eb594] {\n  position: absolute;\n  right: -10rpx;\n  bottom: -10rpx;\n  background-color: #FFFFFF;\n  -webkit-border-radius: 50rem;\n          border-radius: 50rem;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  color: #fab714;\n  font-size: 24rpx;\n  padding: 8rpx 16rpx;\n  -webkit-box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);\n          box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);\n}\n.avatar .badge uni-image[data-v-984eb594] {\n  width: 30rpx;\n  height: 30rpx;\n}\n.level-benefit[data-v-984eb594] {\n  margin-right: 20rpx;\n  padding: 10rpx 30rpx 10rpx 30rpx;\n  -webkit-border-radius: 50rem;\n          border-radius: 50rem;\n}\n.user-grid[data-v-984eb594] {\n  width: 25%;\n  padding: 30rpx;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n}\n.user-grid .value[data-v-984eb594] {\n  margin-bottom: 20rpx;\n}\n.level-benefit-box[data-v-984eb594] {\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n  margin-bottom: 30rpx;\n  -webkit-box-shadow: 0 10rpx 8rpx rgba(135, 136, 137, 0.1);\n          box-shadow: 0 10rpx 8rpx rgba(135, 136, 137, 0.1);\n  width: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 30rpx;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  background-color: #FFFFFF;\n}\n.level-benefit-box .row[data-v-984eb594] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  padding: 30rpx 0 20rpx;\n  -webkit-justify-content: space-around;\n          justify-content: space-around;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.level-benefit-box .row .grid[data-v-984eb594] {\n  width: 20%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  font-size: 24rpx;\n  color: #919293;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n}\n.level-benefit-box .row .grid uni-image[data-v-984eb594] {\n  width: 80rpx;\n  height: 80rpx;\n  margin-bottom: 10rpx;\n}\n.banner[data-v-984eb594] {\n  width: 100%;\n  -webkit-border-radius: 8rpx;\n          border-radius: 8rpx;\n  margin-bottom: 30rpx;\n}\n.service-box[data-v-984eb594] {\n  width: 100%;\n  background-color: #FFFFFF;\n  padding: 32rpx 30rpx 10rpx;\n  -webkit-box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n          box-shadow: 0 20rpx 20rpx -20rpx rgba(51, 51, 51, 0.1);\n}\n.service-box .row[data-v-984eb594] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-flex-wrap: wrap;\n          flex-wrap: wrap;\n  color: #919293;\n  font-size: 24rpx;\n  padding-bottom: -40rpx;\n}\n.service-box .row .grid[data-v-984eb594] {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n          justify-content: center;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n          align-items: center;\n  margin-bottom: 40rpx;\n  width: 25%;\n  position: relative;\n}\n.service-box .row .grid .image uni-image[data-v-984eb594] {\n  width: 80rpx;\n  height: 80rpx;\n  margin-bottom: 20rpx;\n}\n.service-box .row .grid .new-badage[data-v-984eb594] {\n  width: 40rpx;\n  height: 40rpx;\n  position: absolute;\n  top: 0;\n  right: 30rpx;\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -1730,30 +2265,53 @@ var render = function() {
         { staticClass: _vm._$g(5, "sc"), attrs: { _i: 5 } },
         [
           _c(
-            "v-uni-view",
+            "v-uni-button",
             {
               staticClass: _vm._$g(6, "sc"),
+              attrs: {
+                type: "primary",
+                size: "default",
+                "open-type": "getUserInfo",
+                lang: "zh_CN",
+                _i: 6
+              },
+              on: {
+                getuserinfo: function($event) {
+                  return _vm.$handleViewEvent($event)
+                }
+              }
+            },
+            [
+              _c("v-uni-image", { attrs: { src: _vm._$g(7, "a-src"), _i: 7 } }),
+              _vm._v("微信一键登录")
+            ],
+            1
+          ),
+          _c(
+            "v-uni-view",
+            {
+              staticClass: _vm._$g(8, "sc"),
               staticStyle: { height: "30vh" },
-              attrs: { _i: 6 }
+              attrs: { _i: 8 }
             },
             [
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
+                { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
                 [_vm._v("新用户登录即加入会员，享会员权益")]
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+                { staticClass: _vm._$g(10, "sc"), attrs: { _i: 10 } },
                 [
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(9, "sc"), attrs: { _i: 9 } },
+                    { staticClass: _vm._$g(11, "sc"), attrs: { _i: 11 } },
                     [
                       _c("v-uni-image", {
-                        attrs: { src: "/static/images/mine/rhyl.png", _i: 10 }
+                        attrs: { src: "/static/images/mine/rhyl.png", _i: 12 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 11 } }, [
+                      _c("v-uni-view", { attrs: { _i: 13 } }, [
                         _vm._v("入会有礼")
                       ])
                     ],
@@ -1761,12 +2319,12 @@ var render = function() {
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(12, "sc"), attrs: { _i: 12 } },
+                    { staticClass: _vm._$g(14, "sc"), attrs: { _i: 14 } },
                     [
                       _c("v-uni-image", {
-                        attrs: { src: "/static/images/mine/jfdh.png", _i: 13 }
+                        attrs: { src: "/static/images/mine/jfdh.png", _i: 15 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 14 } }, [
+                      _c("v-uni-view", { attrs: { _i: 16 } }, [
                         _vm._v("积分兑换")
                       ])
                     ],
@@ -1774,12 +2332,12 @@ var render = function() {
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(15, "sc"), attrs: { _i: 15 } },
+                    { staticClass: _vm._$g(17, "sc"), attrs: { _i: 17 } },
                     [
                       _c("v-uni-image", {
-                        attrs: { src: "/static/images/mine/sjtq.png", _i: 16 }
+                        attrs: { src: "/static/images/mine/sjtq.png", _i: 18 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 17 } }, [
+                      _c("v-uni-view", { attrs: { _i: 19 } }, [
                         _vm._v("升级特权")
                       ])
                     ],
@@ -1787,12 +2345,12 @@ var render = function() {
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(18, "sc"), attrs: { _i: 18 } },
+                    { staticClass: _vm._$g(20, "sc"), attrs: { _i: 20 } },
                     [
                       _c("v-uni-image", {
-                        attrs: { src: "/static/images/mine/srtq.png", _i: 19 }
+                        attrs: { src: "/static/images/mine/srtq.png", _i: 21 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 20 } }, [
+                      _c("v-uni-view", { attrs: { _i: 22 } }, [
                         _vm._v("生日特权")
                       ])
                     ],
@@ -1800,12 +2358,12 @@ var render = function() {
                   ),
                   _c(
                     "v-uni-view",
-                    { staticClass: _vm._$g(21, "sc"), attrs: { _i: 21 } },
+                    { staticClass: _vm._$g(23, "sc"), attrs: { _i: 23 } },
                     [
                       _c("v-uni-image", {
-                        attrs: { src: "/static/images/mine/nxbz.png", _i: 22 }
+                        attrs: { src: "/static/images/mine/nxbz.png", _i: 24 }
                       }),
-                      _c("v-uni-view", { attrs: { _i: 23 } }, [
+                      _c("v-uni-view", { attrs: { _i: 25 } }, [
                         _vm._v("奈雪宝藏")
                       ])
                     ],
@@ -1816,7 +2374,7 @@ var render = function() {
               ),
               _c(
                 "v-uni-view",
-                { staticClass: _vm._$g(24, "sc"), attrs: { _i: 24 } },
+                { staticClass: _vm._$g(26, "sc"), attrs: { _i: 26 } },
                 [_vm._v("会员权益说明")]
               )
             ],
