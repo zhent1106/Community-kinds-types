@@ -1,0 +1,1 @@
+<view class="data-v-dcbcfe34"><block wx:if="{{isLogin}}"><view class="font-size-lg data-v-dcbcfe34"><text class="data-v-dcbcfe34">{{userInfo.nickName}}</text></view></block><block wx:else><view data-event-opts="{{[['tap',[['login',['$event']]]]]}}" class="font-size-lg font-weight-bold data-v-dcbcfe34" bindtap="__e">请点击授权登录</view></block></view>

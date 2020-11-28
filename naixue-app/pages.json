@@ -27,6 +27,14 @@
 				"navigationBarTitleText": "个人中心"
 			}
 		}
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "奈雪の茶"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
