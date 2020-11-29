@@ -7,7 +7,9 @@
     "pages/login/login",
     "pages/address/address",
     "pages/address/add",
-    "pages/address/edit"
+    "pages/address/edit",
+    "pages/stores/stores",
+    "pages/pay/pay"
   ],
   "subPackages": [],
   "window": {
@@ -48,7 +50,10 @@
       }
     ]
   },
-  "permission": {},
-  "usingComponents": {},
-  "sitemapLocation": "sitemap18.json"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取到相关地图"
+    }
+  },
+  "usingComponents": {}
 }

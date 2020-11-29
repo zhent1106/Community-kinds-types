@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
 
 
 
@@ -237,7 +237,30 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
   onLoad: function onLoad() {
     // console.log("bzd:"+userInfo)
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    takein: function takein() {
+      if (JSON.stringify(this.chooseStore) === '{}') {
+        uni.navigateTo({
+          url: '../stores/stores' });
+
+      }
+      this.$store.commit('SET_ORDERTYPE', 'takein');
+      uni.switchTab({
+        url: '../menu/menu' });
+
+    },
+    takeout: function takeout() {
+      if (!this.isLogin) {
+        uni.navigateTo({
+          url: '../login/login' });
+
+      } else {
+        uni.navigateTo({
+          url: '../address/address?is_choose=true' });
+
+      }
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 /* 19 */

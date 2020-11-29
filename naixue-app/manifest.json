@@ -62,7 +62,11 @@
             "urlCheck" : false
         },
         "usingComponents" : true,
-        "permission" : {}
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取到相关地图"
+            }
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true

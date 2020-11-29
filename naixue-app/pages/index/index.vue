@@ -10,11 +10,11 @@
 		</view>
 		<view class="content">
 			<view class="entrance">
-				<view class="item">
+				<view class="item" @tap="tokein">
 					<image src="../../static/images/index/zq.png" class="icon"></image>
 					<view class="title">自取</view>
 				</view>
-				<view class="item">
+				<view class="item" @tap="takeout">
 					<image src="../../static/images/index/wm.png" class="icon"></image>
 					<view class="title">外卖</view>
 				</view>
@@ -98,7 +98,30 @@ export default {
 	onLoad() {
 		// console.log("bzd:"+userInfo)
 	},
-	methods: {}
+	methods: {
+		takein(){
+			if(JSON.stringify(this.chooseStore)==='{}'){
+				uni.navigateTo({
+					url:'../stores/stores'
+				})
+			}
+			this.$store.commit('SET_ORDERTYPE','takein');
+			uni.switchTab({
+				url:'../menu/menu'
+			})
+		},
+		takeout(){
+			if(!this.isLogin){
+				uni.navigateTo({
+					url:'../login/login'
+				})
+			}else{
+				uni.navigateTo({
+					url:'../address/address?is_choose=true'
+				})
+			}
+		}
+	}
 };
 </script>
 
