@@ -137,9 +137,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 var _default =
 {
   data: function data() {
-    return {};
+    return {
+      total: '' };
 
-
+  },
+  onLoad: function onLoad(options) {
+    if (options.total) {
+      this.total = options.total;
+      console.log(this.total);
+    }
   },
   methods: {} };exports.default = _default;
 

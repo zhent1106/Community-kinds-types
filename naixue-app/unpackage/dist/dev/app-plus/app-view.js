@@ -6899,7 +6899,16 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("v-uni-view", { attrs: { _i: 0 } })
+  return _c(
+    "v-uni-view",
+    { attrs: { _i: 0 } },
+    [
+      _c("h3", { attrs: { _i: 1 } }, [
+        _vm._v("订单总价：" + _vm._$g(1, "t0-0"))
+      ])
+    ],
+    1
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []

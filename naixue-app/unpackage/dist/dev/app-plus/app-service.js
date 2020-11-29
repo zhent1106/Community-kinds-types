@@ -7421,7 +7421,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("view")
+  return _c("view", [_c("h3", [_vm._v(_vm._$s(1, "t0-0", _vm._s(_vm.total)))])])
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -7449,7 +7449,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_t
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; //\n//\n//\n//\n//\n//\nvar _default =\n{\n  data: function data() {\n    return {};\n\n\n  },\n  methods: {} };exports.default = _default;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvcGF5L3BheS52dWUiXSwibmFtZXMiOlsiZGF0YSIsIm1ldGhvZHMiXSwibWFwcGluZ3MiOiJ3RkFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRWU7QUFDZEEsTUFEYyxrQkFDUDtBQUNOLFdBQU8sRUFBUDs7O0FBR0EsR0FMYTtBQU1kQyxTQUFPLEVBQUUsRUFOSyxFIiwiZmlsZSI6IjEwMy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vXG4vL1xuLy9cbi8vXG4vL1xuLy9cblxuZXhwb3J0IGRlZmF1bHQge1xuXHRkYXRhKCkge1xuXHRcdHJldHVybiB7XG5cdFx0XHRcblx0XHR9XG5cdH0sXG5cdG1ldGhvZHM6IHtcblx0XHRcblx0fVxufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///103\n");
+eval("/* WEBPACK VAR INJECTION */(function(__f__) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; //\n//\n//\n//\n//\n//\nvar _default =\n{\n  data: function data() {\n    return {\n      total: '' };\n\n  },\n  onLoad: function onLoad(options) {\n    if (options.total) {\n      this.total = options.total;\n      __f__(\"log\", this.total, \" at pages/pay/pay.vue:17\");\n    }\n  },\n  methods: {} };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-uni/lib/format-log.js */ 39)[\"default\"]))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuaS1hcHA6Ly8vcGFnZXMvcGF5L3BheS52dWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQU9BO0FBQ0EsTUFEQSxrQkFDQTtBQUNBO0FBQ0EsZUFEQTs7QUFHQSxHQUxBO0FBTUEsUUFOQSxrQkFNQSxPQU5BLEVBTUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEdBWEE7QUFZQSxhQVpBLEUiLCJmaWxlIjoiMTAzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiPHRlbXBsYXRlPlxuXHQ8dmlldz5cblx0XHQ8aDM+6K6i5Y2V5oC75Lu377yae3t0b3RhbH19PC9oMz5cblx0PC92aWV3PlxuPC90ZW1wbGF0ZT5cblxuPHNjcmlwdD5cblx0ZXhwb3J0IGRlZmF1bHQge1xuXHRcdGRhdGEoKSB7XG5cdFx0XHRyZXR1cm4ge1xuXHRcdFx0XHR0b3RhbDonJ1xuXHRcdFx0fVxuXHRcdH0sXG5cdFx0b25Mb2FkKG9wdGlvbnMpIHtcblx0XHRcdGlmKG9wdGlvbnMudG90YWwpe1xuXHRcdFx0XHR0aGlzLnRvdGFsID0gb3B0aW9ucy50b3RhbDtcblx0XHRcdFx0Y29uc29sZS5sb2codGhpcy50b3RhbClcblx0XHRcdH1cblx0XHR9LFxuXHRcdG1ldGhvZHM6IHtcblx0XHRcdFxuXHRcdH1cblx0fVxuPC9zY3JpcHQ+XG5cbjxzdHlsZT5cbjwvc3R5bGU+Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///103\n");
 
 /***/ })
 ],[[0,"app-config"]]]);
