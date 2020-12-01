@@ -395,7 +395,7 @@ export default {
 			});
 		},
 		init() {
-			if (Object.keys(this.choseStore).length == 0 && this.orderType == 'takein') {
+			if (Object.keys(this.choseStore).length == 0) {
 				uni.navigateTo({
 					url: '../stores/stores'
 				});
@@ -548,14 +548,79 @@ export default {
 		},
 		topay() {
 			if (!this.isLogin) {
-				uni.navigateTo({
-					url: '../login/login'
-				});
-				return;
-			}
-			uni.navigateTo({
-				url: '../pay/pay?total=' + this.getCartGoodsPrice
-			});
+							uni.navigateTo({
+								url: '../login/login'
+							});
+							return;
+						}
+						uni.showLoading({
+							title: '加载中...'
+						});
+						return uniCloud
+							.callFunction({
+								name: 'validateToken',
+								data: {
+									token: uni.getStorageSync('token')
+								}
+							})
+							.then(res => {
+								if (res.result.status === 0) {
+									uni.hideLoading();
+									if (this.orderType == 'takein') {
+										let data = {
+											openId: res.result.openId,
+											goodsInOrder: this.cart,
+											chooseStore: this.choseStore.name
+										};
+			
+										return uniCloud.callFunction({
+											name: 'order',
+											data: {
+												data: data,
+												action: 'addTakein'
+											}
+										});
+									} else if (this.orderType == 'takeout') {
+										let data = {
+											openId: res.result.openId,
+											goodsInOrder: this.cart,
+											chooseStore: this.choseStore.name
+										};
+										return UniCloud.callFunction({
+											name: 'order',
+											data: {
+												data: data,
+												action: 'addTakein'
+											}
+										});
+									} else if (this.orderType == 'takeout') {
+										let data = {
+											openId: res.result.openId,
+											goodsInOrder: this.cart,
+											chooseStore: this.choseAddress.storeName,
+											order_address: this.choseAddress._id
+										};
+										return uniCloud.callFunction({
+											name: 'order',
+											data: {
+												data: data,
+												action: 'addTakeout'
+											}
+										});
+									}
+								} else {
+									uni.hideLoading();
+									uni.showModal({
+										content: res.result.msg,
+										showCancel: false
+									});
+								}
+							})
+							.then(resData => {
+								uni.navigateTo({
+									url: '../pay/pay?order_id=' + resData.result.order_id
+								});
+							});
 		}
 	}
 };

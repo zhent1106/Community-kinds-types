@@ -13,7 +13,7 @@
 			</view>
 		</view>
 		<view class="content">
-			<view class="store" v-for="(store, index) in storeData" :key="index" @tap="tapStore">
+			<view class="store" v-for="(store, index) in storeData" :key="index" @tap="tapStore(store)">
 				<view class="store-left">
 					<view class="store-title">
 						<view class="store-name">{{ store.name }}</view>

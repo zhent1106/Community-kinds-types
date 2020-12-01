@@ -238,7 +238,7 @@ var _vuex = __webpack_require__(/*! vuex */ 12);function ownKeys(object, enumera
     // console.log("bzd:"+userInfo)
   },
   methods: {
-    takein: function takein() {
+    tokein: function tokein() {
       if (JSON.stringify(this.chooseStore) === '{}') {
         uni.navigateTo({
           url: '../stores/stores' });

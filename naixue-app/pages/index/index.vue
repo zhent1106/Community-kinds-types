@@ -99,7 +99,7 @@ export default {
 		// console.log("bzd:"+userInfo)
 	},
 	methods: {
-		takein(){
+		tokein(){
 			if(JSON.stringify(this.chooseStore)==='{}'){
 				uni.navigateTo({
 					url:'../stores/stores'
