@@ -73,6 +73,10 @@
             "path" : "pages/pay/pay",
             "style" : {}
         }
+        ,{
+            "path" : "pages/remark/remark",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
