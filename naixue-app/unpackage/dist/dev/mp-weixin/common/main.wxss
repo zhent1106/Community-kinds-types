@@ -1671,7 +1671,8 @@ image,
 textarea,
 button,
 input {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 page {
   background-color: #f1f8fa;
@@ -1944,13 +1945,16 @@ button[type='default'][plain] {
   text-align: center !important;
 }
 .border-box {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .rounded-circle {
-  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+          border-radius: 50% !important;
 }
 .rounded-pill {
-  border-radius: 50rem !important;
+  -webkit-border-radius: 50rem !important;
+          border-radius: 50rem !important;
 }
 .pre-line {
   white-space: pre-line;
@@ -2018,5 +2022,4 @@ button[type='default'][plain] {
 .pl-30 {
   padding-left: 30rpx;
 }
-/*引入iconfont*/
 

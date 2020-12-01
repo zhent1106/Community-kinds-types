@@ -9,7 +9,9 @@
     "pages/address/add",
     "pages/address/edit",
     "pages/stores/stores",
-    "pages/pay/pay"
+    "pages/pay/pay",
+    "pages/remark/remark",
+    "pages/member-code/member-code"
   ],
   "subPackages": [],
   "window": {
@@ -55,5 +57,6 @@
       "desc": "获取到相关地图"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap39.json"
 }

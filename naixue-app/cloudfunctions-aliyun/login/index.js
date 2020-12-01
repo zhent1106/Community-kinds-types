@@ -46,7 +46,8 @@ exports.main = async (event, context) => {
 		level: '',
 		pointNum: '',
 		createTime: time,
-		lastLoginTime: time
+		lastLoginTime: time,
+		needValue:''
 	}
 
 	let userUpdate = {
@@ -86,7 +87,8 @@ exports.main = async (event, context) => {
 		giftBalance: 1,
 		level: 1,
 		pointNum: 1,
-		gender: 1
+		gender: 1,
+		needValue:1
 	};
 
 
